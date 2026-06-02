@@ -1,0 +1,23 @@
+---
+title: "Armoede in Nederland"
+author: "Tiemen & Thijs"
+date: "2026-06-02"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Introductie
+
+In dit rapport onderzoeken we armoede in Nederland aan de hand van publieke data.
+
+## Data
+
+Hier laden we de data in.
+
+## Visualisaties
+
+Hier komen de grafieken.
