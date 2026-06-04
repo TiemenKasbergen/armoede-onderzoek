@@ -8,20 +8,22 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(tidyverse)
+library(sf)
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 ```
 
 ## Introductie
 
-In dit rapport onderzoeken we armoede in Nederland aan de hand van publieke data van het CBS.
+Armoede is een hardnekkig sociaal probleem in Nederland. Huishoudens die langdurig onder de armoedegrens leven hebben minder toegang tot onderwijs, zorg en sociale participatie. Volgens het CBS (2023) leefde in 2022 ongeveer 4,7% van alle huishoudens onder de lage-inkomensgrens. Eenoudergezinnen en alleenstaanden zijn bijzonder kwetsbaar (Vrooman et al., 2020). In dit rapport analyseren we hoe armoede zich heeft ontwikkeld tussen 2011 en 2024, welke huishoudenstypes het hardst worden geraakt, en hoe armoede geografisch verdeeld is over Nederland.
 
 ## Data
 
-```{r data-laden}
-library(sf)
+We gebruiken twee datasets van het CBS: (1) *Laag en langdurig laag inkomen van huishoudens* (83841NED) met nationale cijfers per huishoudenstype van 2011-2024, en (2) *Laag en langdurig laag inkomen per regio* (85678NED) met provinciale cijfers voor 2022. Beide datasets meten het percentage huishoudens onder de lage-inkomensgrens. Een beperking is dat de meest recente provinciale data uit 2022 stamt.
 
-obs_raw <- read_csv2("Observations.csv")
-obs_raw <- obs_raw %>% mutate(jaar = as.integer(substr(Perioden, 1, 4)))
+```{r data-laden}
+obs_raw <- read_csv2("Observations.csv") %>%
+  filter(is.na(RegioS) | RegioS == "NL01") %>%
+  mutate(jaar = as.integer(substr(Perioden, 1, 4)))
 
 armoede_pct <- obs_raw %>%
   filter(KenmerkenVanHuishoudens == "1050010",
@@ -50,8 +52,9 @@ kaart_data <- obs2 %>%
   ))
 ```
 
-
 ## Visualisaties
+
+### Temporele variatie
 
 ```{r tijdreeks}
 ggplot(armoede_pct, aes(x = jaar, y = Value)) +
@@ -62,6 +65,11 @@ ggplot(armoede_pct, aes(x = jaar, y = Value)) +
        y = "% huishoudens onder armoedegrens") +
   theme_minimal()
 ```
+
+Armoede steeg tot een piek van 8,9% in 2013 na de financiële crisis, en daalde daarna gestaag tot 3,6% in 2024.
+
+### Sub-populatie variatie
+
 ```{r subpopulatie}
 groepen <- c("1050015", "1050190", "1050055", "1016090")
 
@@ -85,6 +93,30 @@ ggplot(subpop, aes(x = jaar, y = Value, color = Title)) +
        color = "Huishoudenstype") +
   theme_minimal()
 ```
+
+Eenoudergezinnen hebben structureel de hoogste armoedekans (piekte op 21%), gevolgd door eenpersoonshuishoudens. Paren met kinderen hebben een veel lager armoederisico.
+
+### Ruimtelijke variatie
+
+```{r kaart}
+nl_map <- st_read("https://cartomap.github.io/nl/wgs84/provincie_2022.geojson", quiet = TRUE)
+
+nl_map_data <- nl_map %>%
+  left_join(kaart_data, by = c("statnaam" = "Title"))
+
+ggplot(nl_map_data) +
+  geom_sf(aes(fill = Value)) +
+  scale_fill_gradient(low = "lightyellow", high = "darkred") +
+  labs(title = "Armoede per provincie in Nederland (2022)",
+       caption = "Bron: CBS 85678NED",
+       fill = "% onder\narmoedegrens") +
+  theme_void()
+```
+
+Zuid-Holland en Groningen kennen de hoogste armoede (respectievelijk 5,3% en 4,9%), terwijl Zeeland en Drenthe de laagste cijfers laten zien.
+
+### Event analyse: COVID-19
+
 ```{r event}
 armoede_pct <- armoede_pct %>%
   mutate(periode = ifelse(jaar < 2020, "Voor COVID-19", "Na COVID-19"))
@@ -99,25 +131,18 @@ ggplot(armoede_pct, aes(x = jaar, y = Value)) +
        y = "% huishoudens onder armoedegrens") +
   theme_minimal()
 ```
-```{r kaart}
-library(sf)
 
-# Provinciegrenzen downloaden van CBS
-nl_map <- st_read("https://cartomap.github.io/nl/wgs84/provincie_2022.geojson", quiet = TRUE)
+Na 2020 daalde armoede verder ondanks COVID-19, mogelijk door overheidssteun zoals de NOW-regeling. Dit is echter een associatie en geen causaal bewijs.
 
-kaart_data <- kaart_data %>%
-  mutate(Title = case_when(
-    Title == "Fryslân" ~ "Friesland",
-    TRUE ~ Title
-  ))
+## Discussie
 
-nl_map_data <- nl_map %>%
-  left_join(kaart_data, by = c("statnaam" = "Title"))
+Armoede in Nederland is tussen 2011 en 2024 gedaald, maar de daling is ongelijk verdeeld. Eenoudergezinnen blijven structureel kwetsbaar. De geografische spreiding laat zien dat stedelijke provincies zoals Zuid-Holland relatief meer armoede kennen. Een beperking van dit onderzoek is dat we alleen geregistreerde huishoudens meten — daklozen en ongedocumenteerden zijn niet meegenomen.
 
-ggplot(nl_map_data) +
-  geom_sf(aes(fill = Value)) +
-  scale_fill_gradient(low = "lightyellow", high = "darkred") +
-  labs(title = "Armoede per provincie in Nederland (2022)",
-       fill = "% onder\narmoedegrens") +
-  theme_void()
-```
+## Reproduceerbaarheid
+
+GitHub repository: https://github.com/TiemenKasbergen/armoede-onderzoek
+
+## Referenties
+
+- CBS (2023). *Armoede en sociale uitsluiting 2023*. Centraal Bureau voor de Statistiek. https://www.cbs.nl
+- Vrooman, C., Gijsberts, M., & Boelhouwer, J. (2020). *Verschil in Nederland*. Sociaal en Cultureel Planbureau.
