@@ -1,0 +1,7 @@
+Id;Index;Title;Description;ParentId;DimensionId
+0;0;Kenmerken van personen;;;KenmerkenVanPersonen
+1;1;Totaal;;0;KenmerkenVanPersonen
+2;2;Leeftijd;;0;KenmerkenVanPersonen
+3;3;Migratieachtergrond;;0;KenmerkenVanPersonen
+4;4;Positie in huishouden: sociaaleconomisch;;0;KenmerkenVanPersonen
+5;5;Sociaaleconomische categorie;;0;KenmerkenVanPersonen

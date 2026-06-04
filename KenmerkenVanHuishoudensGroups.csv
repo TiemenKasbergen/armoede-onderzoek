@@ -1,0 +1,9 @@
+Id;Index;Title;Description;ParentId;DimensionId
+0;0;Kenmerken van huishoudens;;;KenmerkenVanHuishoudens
+1;1;Totaal;;0;KenmerkenVanHuishoudens
+2;2;Samenstelling huishouden;;0;KenmerkenVanHuishoudens
+3;3;Hoofdkostwinner: geslacht;;0;KenmerkenVanHuishoudens
+4;4;Hoofdkostwinner: leeftijd;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.;0;KenmerkenVanHuishoudens
+5;5;Hoofdkostwinner: migratieachtergrond;;0;KenmerkenVanHuishoudens
+6;6;Voornaamste inkomstenbron;De voornaamste inkomensbron van het huishouden is vastgesteld door de inkomensbestanddelen van alle leden van het huishouden per inkomensbron samen te tellen. Vervolgens is op basis van (gegroepeerde) bedragen bepaald welk type bron voor het huishouden het belangrijkst is. Bij zelfstandig ondernemers wordt groter gewicht toegekend aan inkomen uit eigen onderneming mits de inkomsten uit andere bronnen niet substantieel zijn. Dit omdat het resultaat uit onderneming soms laag of zelfs negatief is, ofschoon het huishouden hiervoor vele uren per week actief is.;0;KenmerkenVanHuishoudens
+7;7;Woningbezit: huur- of koopwoning;;0;KenmerkenVanHuishoudens

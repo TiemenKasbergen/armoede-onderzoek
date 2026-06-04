@@ -1,0 +1,100 @@
+Identifier;Title;Description;Modified;ReleaseDate;ModificationDate;Language;TemporalCoverage;Authority;Catalog;Publisher;ContactPoint;Version;VersionNotes;VersionReason;Frequency;Status;ObservationCount;ObservationsModified;DatasetType;GraphTypes;License;Source;Summary;LongDescription
+83841NED;"Laag en langdurig laag inkomen van huishoudens; huishoudenskenmerken";"Deze tabel bevat uitkomsten over huishoudens met een relatief laag inkomen. De uitkomsten worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.
+
+De gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven.
+
+Voor de armoedekwalificatie wordt vanaf 2024 de nieuwe meetmethode van het CBS, SCP en Nibud gehanteerd. Cijfers over laag inkomen worden vanaf 2024 niet meer geactualiseerd.
+
+Gegevens beschikbaar vanaf: 2011. 
+
+Status van de cijfers: 
+De cijfers over de jaren 2011 - 2023 zijn definitief.
+De cijfers over 2024 zijn voorlopig.
+
+Wijzigingen per oktober 2025:
+Actualisatie met definitieve cijfers voor 2023 en voorlopige cijfers voor 2024.
+
+Wijzigingen per 10 maart 2023:
+Voor de perioden 2011 t/m 2013 zijn de cijfers voor Duur inkomenspositie: 4 jaar of langer aangevuld.
+
+Wanneer komen er nieuwe cijfers?
+De nieuwe cijfers komen in december 2026 beschikbaar.
+
+";2025-10-08T00:00:00+02:00;2025-10-08T00:00:00+02:00;2025-10-08T00:00:00+02:00;nl;2011-2024;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;CBS;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;infoservice@cbs.nl;202510080000;;Actualisering;Per jaar;Regulier;11460;2025-10-08T00:00:00+02:00;Numeric;Table,Bar,Line;https://creativecommons.org/licenses/by/4.0/;CBS.;"Armoede,risico op armoede,laag inkomen,huishoudens
+Voornaamste inkomensbron,woonsituatie,samenstelling huishouden";"INHOUDSOPGAVE
+
+1. Toelichting
+2. Definities en verklaring van symbolen
+3. Koppelingen naar relevante tabellen en artikelen
+4. Bronnen en methoden
+5. Meer informatie 
+
+1. TOELICHTING
+
+Deze tabel bevat uitkomsten over huishoudens met een relatief laag inkomen. De uitkomsten worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.
+
+De gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven.
+
+Voor de armoedekwalificatie wordt vanaf 2024 de nieuwe meetmethode van het CBS, SCP en Nibud gehanteerd. Cijfers over laag inkomen worden vanaf 2024 niet meer geactualiseerd.
+
+Gegevens beschikbaar vanaf: 2011. 
+
+Status van de cijfers: 
+De cijfers over de jaren 2011 - 2023 zijn definitief.
+De cijfers over 2024 zijn voorlopig.
+
+Wijzigingen per oktober 2025:
+Actualisatie met definitieve cijfers voor 2023 en voorlopige cijfers voor 2024.
+
+Wijzigingen per 10 maart 2023:
+Voor de perioden 2011 t/m 2013 zijn de cijfers voor Duur inkomenspositie: 4 jaar of langer aangevuld.
+
+Wanneer komen er nieuwe cijfers?
+De nieuwe cijfers komen in december 2026 beschikbaar.
+
+2. DEFINITIES EN VERKLARING VAN SYMBOLEN
+
+Definities:
+
+Lage-inkomensgrens
+De lage-inkomensgrens betreft een vast bedrag dat voor alle typen huishoudens een gelijke koopkracht vertegenwoordigt. De hoogte ervan is geënt op de bijstandsuitkering van een alleenstaande in 1979, toen deze op een hoog niveau lag. Er is sprake van een laag inkomen als het inkomen omgerekend naar een inkomen van een alleenstaande, een lagere koopkracht vertegenwoordigt dan een bedrag van 9 250 euro in prijzen van 2000. Het inkomensbegrip dat hierbij wordt gehanteerd, is het besteedbaar inkomen verminderd met huurtoeslag. Inkomens van huishoudens van verschillende grootte en samenstelling worden met behulp van een equivalentiefactor vergelijkbaar gemaakt. Vervolgens wordt dit gestandaardiseerde inkomen (met het prijsindexcijfer voor de gezinsconsumptie) herleid naar het prijspeil in 2000. Het resulterende gestandaardiseerde en gedefleerde inkomen is laag wanneer het minder is dan 9 250 euro.
+
+Sociaal minimum
+Het beleidsmatig of sociaal minimum bestaat uit de netto bijstandsuitkering of (voor ouderen) de netto AOW-uitkering aangevuld met eventuele kinderbijslag, kindgebonden budget, zorgtoeslag, huurtoeslag, en (voor sommige jaren) incidentele koopkrachttegemoetkomingen. De nominale premie zorgverzekering wordt daarbij in mindering gebracht. Bijzondere bijstand en kinderopvangtoeslag blijven buiten de door het CBS gebruikte afbakening. Het sociaal minimum is het wettelijk bestaansminimum dat in de politieke besluitvorming is vastgesteld. Tot aan de pensioengerechtigde leeftijd is het sociaal minimum gelijk aan de hoogte van de bijstandsuitkering en vanaf de pensioengerechtigde leeftijd is het ontleend aan het AOW-pensioen. Voor huishoudens met kinderen zijn de kinderbijslag en het kindgebonden budget aan het normbedrag toegevoegd. Het CBS berekent per afzonderlijk huishouden de verhouding van het waargenomen besteedbaar jaarinkomen (teller) en de wettelijke netto bijstandsnorm (of netto AOW-norm) aangevuld met de in dat jaar waargenomen bedragen van ontvangen kinderbijslag, ontvangen kindgebonden budget, saldo ontvangen zorgtoeslag en nominale premie zorgverzekering en ontvangen huurtoeslag (noemer). Indien deze verhouding groter is dan 1 (100 procent) of beter gezegd 1,01 (101 procent) geldt dat het besteedbaar inkomen van het desbetreffende huishouden in het desbetreffende jaar boven de kritische beleidsmatige grens uitkomt, dus dat het huishouden geen risico op armoede heeft volgens de beleidsmatige grens. Ligt de ratio onder de 101 procent dan is er wel sprake van een armoederisico voor het desbetreffende huishouden. De grens is op 101 procent gelegd en niet op 100 om te voorkomen dat door afronding van inkomensposten huishoudens onterecht boven de 100 procent uitkomen en daarmee als ‘niet-arm’ worden geregistreerd. Voor de uitvoering van het gemeentelijk armoedebeleid wordt vaak uitgegaan van een inkomensgrens die gelijkgesteld is aan een hoger percentage (bijvoorbeeld 110 of 120 procent) van het sociaal minimum.
+
+Verklaring van symbolen:
+
+niets (blanco)	: het cijfer kan op logische gronden niet voorkomen
+. 		: het cijfer is onbekend, onvoldoende betrouwbaar of geheim
+*		: voorlopige cijfers
+**		: nader voorlopige cijfers
+
+3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN
+
+Relevante tabellen:
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83842NED'>Laag en langdurig laag inkomen van personen; huishoudenskenmerken</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83843NED'>Laag en langdurig laag inkomen van personen; persoonskenmerken</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83739NED'>Welvaart van particuliere huishoudens; kerncijfers</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85397NED'>Welvaart van particuliere huishoudens; kerncijfers herkomst</a> 
+
+Deze tabel bevat cijfers over armoede volgens de nieuwe meetmethode:
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86127NED'>Armoede van personen; persoons- en huishoudenskenmerken</a>
+
+Voor de periode 2001-2014 zijn soortgelijke gegevens beschikbaar. Wegens verschillen in wijze van samenstelling zijn deze niet geheel vergelijkbaar met uitkomsten van latere jaren:
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70738ned'>Laag en langdurig laag inkomen; particuliere huishoudens naar kenmerken, 2000/2014</a>
+
+Relevante artikelen:
+<a href='https://www.cbs.nl/nl-nl/publicatie/2023/51/armoede-sociale-uitsluiting-2023'>Armoede en sociale uitsluiting 2023</a>
+
+Meer informatie is te vinden op de themapagina <a href=https://www.cbs.nl/nl-nl/arbeid-en-inkomen/inkomen-en-bestedingen>Inkomen en bestedingen</a>.
+
+4. BRONNEN EN METHODEN
+
+De onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href=https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/integraal-inkomens-en-vermogensonderzoek>Integraal inkomens- en vermogensonderzoek</a>.
+
+5. MEER INFORMATIE
+
+<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen 
+Verveelvoudiging is toegestaan, mits CBS als bron wordt vermeld."

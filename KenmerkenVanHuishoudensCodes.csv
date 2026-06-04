@@ -1,0 +1,402 @@
+Identifier;DimensionGroupId;DimensionId;Index;Title;Description
+1050010;1;KenmerkenVanHuishoudens;1;Particuliere huishoudens;Eén of meer personen die samen een woonruimte bewonen en zichzelf, dus niet-bedrijfsmatig, voorzien in de dagelijkse levensbehoeften.
+1050015;2;KenmerkenVanHuishoudens;2;Type: Eenpersoonshuishouden;"Particulier huishouden bestaande uit één persoon.
+
+Tot eenpersoonshuishoudens, ook wel alleenstaanden genoemd, worden ook personen gerekend die met anderen op eenzelfde adres wonen maar een eigen huishouding voeren. Alleenstaanden worden in alle burgerlijke staten aangetroffen; zo kunnen gehuwden na het stuklopen van hun relatie (in afwachting van een scheiding) alleen wonen."
+A043011;2;KenmerkenVanHuishoudens;3;Type: Alleenstaande onder AOW-lft;Eenpersoonshuishouden bestaande uit een persoon met een leeftijd onder de AOW gerechtigde leeftijd.
+A043012;2;KenmerkenVanHuishoudens;4;Type: Alleenstaande vanaf AOW-lft;Eenpersoonshuishouden bestaande uit een persoon met een AOW gerechtigde leeftijd.
+1016010;2;KenmerkenVanHuishoudens;5;Type: Meerpersoonshuishouden;Een particulier huishouden bestaande uit twee of meer personen.
+1050190;2;KenmerkenVanHuishoudens;6;Type: Eenoudergezin;Particulier huishouden bestaande uit één ouder met één of meer thuiswonende kinderen.
+1050195;2;KenmerkenVanHuishoudens;7;Type: Eenouder, alle kinderen < 18 jr;"Eenouderhuishouden met (een) minderjarig(e) thuiswonend(e) kind(eren)
+
+
+
+Eenouderhuishouden:
+
+Particulier huishouden bestaande uit één ouder met één of meer thuiswonende kinderen.
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie
+
+heeft met de ouder die tot het huishouden behoort. Onder thuiswonende kinderen 
+
+worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1050200;2;KenmerkenVanHuishoudens;8;Type: Eenouder, minst. één kind >= 18 jr;"Eenouderhuishouden met (een) meerderjarig(e) thuiswonend(e) kind(eren)
+
+
+
+Eenouderhuishouden:
+
+Particulier huishouden bestaande uit één ouder met één of meer thuiswonende kinderen.
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie
+
+heeft met de ouder die tot het huishouden behoort. Onder thuiswonende kinderen 
+
+worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1050055;2;KenmerkenVanHuishoudens;9;Type: Paar, totaal;"Meerpersoonshuishouden bestaande uit een paar met of zonder thuiswonend(e) kind(eren)
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Paar:
+
+Twee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.
+
+Onder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1017780;2;KenmerkenVanHuishoudens;10;Type: Paar, zonder kind;"Meerpersoonshuishouden bestaande uit een paar zonder thuiswonend(e) kind(eren)
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Paar:
+
+Twee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.
+
+Onder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1017790;2;KenmerkenVanHuishoudens;11;Type: Paar, zonder kind, onder AOW-lft;"Meerpersoonshuishouden bestaande uit een paar, waarvan de referentiepersoon de AOW leeftijdsgrens nog niet heeft bereikt, zonder thuiswonend(e) kind(eren)
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Paar:
+
+Twee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.
+
+
+
+Referentiepersoon:
+
+Lid van het huishouden ten opzichte van wie de posities van de andere leden in het huishouden worden bepaald en van wie de kenmerken eventueel ook aan het huishouden worden toegekend. 
+
+Uit de leden van het huishouden wordt de referentiepersoon als volgt gekozen: 
+
+- als er een paar is binnen het huishouden: de man;
+
+- als het paar van gelijk geslacht is: de oudste van het paar;
+
+- in een eenouderhuishouden: de ouder;
+
+- in een overig huishouden: de oudste meerderjarige man of - als deze ontbreekt - de oudste meerderjarige vrouw.
+
+
+
+Algemene ouderdomswet (AOW):
+
+Een algemene, de gehele bevolking omvattende, verplichte verzekering die personen met de AOW-gerechtigde leeftijd een inkomen garandeert. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering.
+
+De AOW-leeftijd was tot 1 januari 2013 65 jaar. Vanaf 2013 wordt de AOW-leeftijd geleidelijk verhoogd tot 67 jaar. Een verdere stijging is afhankelijk van de stijging van de gemiddelde levensverwachting. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering. 
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.
+
+Onder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1017800;2;KenmerkenVanHuishoudens;12;Type: Paar, zonder kind, vanaf AOW-lft;"Meerpersoonshuishouden bestaande uit een paar, waarvan de referentiepersoon AOW gerechtigd is, zonder thuiswonend(e) kind(eren)
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Paar:
+
+Twee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.
+
+
+
+Referentiepersoon:
+
+Lid van het huishouden ten opzichte van wie de posities van de andere leden in het huishouden worden bepaald en van wie de kenmerken eventueel ook aan het huishouden worden toegekend. 
+
+Uit de leden van het huishouden wordt de referentiepersoon als volgt gekozen: 
+
+- als er een paar is binnen het huishouden: de man;
+
+- als het paar van gelijk geslacht is: de oudste van het paar;
+
+- in een eenouderhuishouden: de ouder;
+
+- in een overig huishouden: de oudste meerderjarige man of - als deze ontbreekt - de oudste meerderjarige vrouw.
+
+
+
+Algemene ouderdomswet (AOW):
+
+Een algemene, de gehele bevolking omvattende, verplichte verzekering die personen met de AOW-gerechtigde leeftijd een inkomen garandeert. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering.
+
+De AOW-leeftijd was tot 1 januari 2013 65 jaar. Vanaf 2013 wordt de AOW-leeftijd geleidelijk verhoogd tot 67 jaar. Een verdere stijging is afhankelijk van de stijging van de gemiddelde levensverwachting. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering. 
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.
+
+Onder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1016090;2;KenmerkenVanHuishoudens;13;Type: Paar, met kind(eren);"Meerpersoonshuishouden bestaande uit een paar met (een) thuiswonend(e) kind(eren)
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Paar:
+
+Twee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.
+
+Onder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1017810;2;KenmerkenVanHuishoudens;14;Type: Paar, alle kinderen < 18 jr;"Meerpersoonshuishouden bestaande uit een paar met alléén (een) minderjarig(e) thuiswonend(e) kind(eren)
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Paar:
+
+Twee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.
+
+Onder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1017880;2;KenmerkenVanHuishoudens;15;Type: Paar, minstens één kind >= 18 jr;"Meerpersoonshuishouden bestaande uit een paar, waarvan de referentiepersoon AOW gerechtigd is, zonder thuiswonend(e) kind(eren)
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Paar:
+
+Twee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.
+
+
+
+Referentiepersoon:
+
+Lid van het huishouden ten opzichte van wie de posities van de andere leden in het huishouden worden bepaald en van wie de kenmerken eventueel ook aan het huishouden worden toegekend. 
+
+Uit de leden van het huishouden wordt de referentiepersoon als volgt gekozen: 
+
+- als er een paar is binnen het huishouden: de man;
+
+- als het paar van gelijk geslacht is: de oudste van het paar;
+
+- in een eenouderhuishouden: de ouder;
+
+- in een overig huishouden: de oudste meerderjarige man of - als deze ontbreekt - de oudste meerderjarige vrouw.
+
+
+
+Algemene ouderdomswet (AOW):
+
+Een algemene, de gehele bevolking omvattende, verplichte verzekering die personen met de AOW-gerechtigde leeftijd een inkomen garandeert. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering.
+
+De AOW-leeftijd was tot 1 januari 2013 65 jaar. Vanaf 2013 wordt de AOW-leeftijd geleidelijk verhoogd tot 67 jaar. Een verdere stijging is afhankelijk van de stijging van de gemiddelde levensverwachting. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering. 
+
+
+
+Thuiswonend kind:
+
+Persoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.
+
+Onder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen."
+1050220;2;KenmerkenVanHuishoudens;16;Type: Meerpersoonshuishouden, overig;"Meerpersoonshuishouden dat uitsluitend bestaat uit overige leden.
+
+
+
+Meerpersoonshuishouden:
+
+Een particulier huishouden bestaande uit twee of meer personen.
+
+
+
+Overig lid van een huishouden:
+
+Persoon die anders dan als partner, ouder in een eenouderhuishouden of als thuiswonend kind deel uitmaakt van een particulier huishouden. 
+
+Te denken valt hier bijvoorbeeld aan twee broers (zussen) die samen een huishouden vormen."
+3000;3;KenmerkenVanHuishoudens;17;Hoofdkostwinner: man;
+4000;3;KenmerkenVanHuishoudens;18;Hoofdkostwinner: vrouw;
+A025340;4;KenmerkenVanHuishoudens;19;Hoofdkostwinner: tot 25 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025343;4;KenmerkenVanHuishoudens;20;Hoofdkostwinner: 25 tot 45 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025351;4;KenmerkenVanHuishoudens;21;Hoofdkostwinner: 45 tot 65 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025359;4;KenmerkenVanHuishoudens;22;Hoofdkostwinner: 65 jaar of ouder;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025342;4;KenmerkenVanHuishoudens;23;Hoofdkostwinner: 25 tot 35 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025347;4;KenmerkenVanHuishoudens;24;Hoofdkostwinner: 35 tot 45 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025350;4;KenmerkenVanHuishoudens;25;Hoofdkostwinner: 45 tot 55 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025354;4;KenmerkenVanHuishoudens;26;Hoofdkostwinner: 55 tot 65 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025358;4;KenmerkenVanHuishoudens;27;Hoofdkostwinner: 65 tot 75 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A042086;4;KenmerkenVanHuishoudens;28;Hoofdkostwinner: 75 tot 85 jaar;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A042087;4;KenmerkenVanHuishoudens;29;Hoofdkostwinner: 85 jaar of ouder;De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.
+A025362;5;KenmerkenVanHuishoudens;30;Hoofdkostwinner: Nederland;"Migratieachtergrond van de hoofdkostwinner: Nederland
+
+
+
+Persoon van wie de beide ouders in Nederland zijn geboren."
+A025363;5;KenmerkenVanHuishoudens;31;Hoofdkostwinner: westers;"Migratieachtergrond van de hoofdkostwinner: westers
+
+
+
+Persoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. 
+
+Op grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.
+
+
+
+Persoon met een migratieachtergond:
+
+Persoon van wie ten minste één ouder in het buitenland is geboren."
+A025368;5;KenmerkenVanHuishoudens;32;Hoofdkostwinner: niet-westers;"Migratieachtergrond van de hoofdkostwinner: niet-westers
+
+
+
+Persoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. 
+
+Op grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.
+
+
+
+Persoon met een migratieachtergond:
+
+Persoon van wie ten minste één ouder in het buitenland is geboren."
+A025376;5;KenmerkenVanHuishoudens;33;Hoofdkostwinner: 1e gen westers;"Migratieachtergrond van de hoofdkostwinner: westerse, 1e generatie
+
+
+
+Persoon met een eerste generatie migratieachtergrond:
+
+Persoon die in het buitenland is geboren en van wie ten minste één ouder in het buitenland is geboren.
+
+
+
+Persoon met een westerse migratieachtergrond:
+
+Persoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. 
+
+Op grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin."
+A025377;5;KenmerkenVanHuishoudens;34;Hoofdkostwinner: 2e gen westers;"Migratieachtergrond van de hoofdkostwinner: westerse, 2e generatie
+
+
+
+Persoon met een tweede generatie migratieachtergrond:
+
+Persoon die in Nederland is geboren en van wie ten minste één ouder in het buitenland is geboren.
+
+
+
+Persoon met een westerse migratieachtergrond:
+
+Persoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. 
+
+Op grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin."
+A025379;5;KenmerkenVanHuishoudens;35;Hoofdkostwinner: 1e gen niet-westers;"Migratieachtergrond van de hoofdkostwinner: niet-westerse, 1e generatie
+
+
+
+Persoon met een eerste generatie migratieachtergrond:
+
+Persoon die in het buitenland is geboren en van wie ten minste één ouder in het buitenland is geboren.
+
+
+
+Persoon met een niet-westerse migratieachtergrond:
+
+Persoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. 
+
+Op grond van hun sociaal-economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin."
+A025380;5;KenmerkenVanHuishoudens;36;Hoofdkostwinner: 2e gen niet-westers;"Migratieachtergrond van de hoofdkostwinner: niet-westerse, 2e generatie
+
+
+
+Persoon met een tweede generatie migratieachtergrond:
+
+Persoon die in Nederland is geboren en van wie ten minste één ouder in het buitenland is geboren.
+
+
+
+Persoon met een niet-westerse migratieachtergrond:
+
+Persoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. 
+
+Op grond van hun sociaal-economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin."
+1013395;6;KenmerkenVanHuishoudens;37;Bron: Inkomen als werknemer/zelfstandige;Huishoudens waarvoor het loon van werknemer of het inkomen als zelfstandige de voornaamste inkomensbron vormt.
+1013400;6;KenmerkenVanHuishoudens;38;Bron: Inkomen als werknemer;Huishoudens waarvoor het loon van werknemer de voornaamste inkomensbron vormt.
+1013601;6;KenmerkenVanHuishoudens;39;Bron: Inkomen als zelfstandige (totaal);Huishoudens waarvoor het inkomen als zelfstandig ondernemer, directeur-grootaandeelhouder en overig zelfstandige de voornaamste inkomensbron vormt.
+1013602;6;KenmerkenVanHuishoudens;40;Bron: Inkomen als zelfstandig ondernemer;Huishoudens waarvoor de winst van zelfstandig ondernemer de voornaamste inkomensbron vormt.
+1013603;6;KenmerkenVanHuishoudens;41;Bron: Inkomen als dir.-grootaandeelh.;Huishoudens waarvoor het loon als directeur-grootaandeelhouder de voornaamste inkomensbron vormt.
+1013604;6;KenmerkenVanHuishoudens;42;Bron: Inkomen als overige zelfstandige;Huishoudens waarvoor overig inkomen uit arbeid (niet in dienstbetrekking) de voornaamste inkomensbron vormt.
+1013650;6;KenmerkenVanHuishoudens;43;Bron: Overdrachtsinkomen;Huishoudens waarvoor een uitkering, pensioen of studiefinanciering de voornaamste inkomensbron vormt.
+1013700;6;KenmerkenVanHuishoudens;44;Bron: Uitkering inkomensverzekering;Huishoudens waarvoor een uitkering inkomensverzekering wegens werkloosheid, ziekte, arbeidsongeschiktheid en pensioen de voornaamste inkomensbron vormt.
+1013750;6;KenmerkenVanHuishoudens;45;Bron: Uitkering werkloosheid;Huishoudens waarvoor een uitkering inkomensverzekering wegens werkloosheid de voornaamste inkomensbron vormt.
+1013800;6;KenmerkenVanHuishoudens;46;Bron: Uitkering arbeidsongeschiktheid;Huishoudens waarvoor een uitkering inkomensverzekering wegens ziekte of arbeidsongeschiktheid de voornaamste inkomensbron vormt.
+1013850;6;KenmerkenVanHuishoudens;47;Bron: Uitkering pensioen;Huishoudens waarvoor een uitkering inkomensverzekering wegens pensioen of inkomen uit vermogen de voornaamste inkomensbron vormt.
+1013900;6;KenmerkenVanHuishoudens;48;Bron: Uitkering sociale voorziening;Huishoudens waarvoor een uitkering sociale voorziening (bijstand en overige uitkering sociale voorziening) de voornaamste inkomensbron vormt.
+1013950;6;KenmerkenVanHuishoudens;49;Bron: Uitkering bijstand;Huishoudens waarvoor een uitkering sociale voorziening (bijstandsuitkering) de voornaamste inkomensbron vormt.
+1014040;6;KenmerkenVanHuishoudens;50;Bron: Uitk. sociale voorziening, overig;Huishoudens waarvoor een uitkering sociale voorziening anders dan bijstand de voornaamste inkomensbron vormt. Het betreft hier onder meer de uitkering voor oudere werklozen, voor jonggehandicapten en uitkeringen in het kader van het Bijstandsbesluit Zelfstandigen en de Toeslagenwet.
+1014800;7;KenmerkenVanHuishoudens;51;Woningbezit: eigen woning;"Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.
+"
+1014850;7;KenmerkenVanHuishoudens;52;Woningbezit: huurwoning;"Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.
+"
+1014950;7;KenmerkenVanHuishoudens;53;Woningbezit: huurwoning geen huurtoeslag;Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.
+1014900;7;KenmerkenVanHuishoudens;54;Woningbezit: huurwoning met huurtoeslag;"Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.
+"

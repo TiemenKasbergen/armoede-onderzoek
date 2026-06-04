@@ -1,0 +1,3 @@
+Identifier;MeasureGroupId;Index;Title;Description;DataType;Unit;Decimals;PresentationType
+1050010_1;;4;Huishoudens;Het aantal particuliere huishoudens met inkomen, per 1 januari van het verslagjaar, waarbij studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing zijn gebleven.;Double;x 1 000;1;
+1050010_2;;5;Huishoudens, relatief;Het % particuliere huishoudens met inkomen, per 1 januari van het verslagjaar, waarbij studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing zijn gebleven.;Double;%;1;

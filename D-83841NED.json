@@ -1,0 +1,738 @@
+{
+  "Identifier": "83841NED",
+  "Title": "Laag en langdurig laag inkomen van huishoudens; huishoudenskenmerken",
+  "Description": "Deze tabel bevat uitkomsten over huishoudens met een relatief laag inkomen. De uitkomsten worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.\r\n\r\nDe gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven.\r\n\r\nVoor de armoedekwalificatie wordt vanaf 2024 de nieuwe meetmethode van het CBS, SCP en Nibud gehanteerd. Cijfers over laag inkomen worden vanaf 2024 niet meer geactualiseerd.\r\n\r\nGegevens beschikbaar vanaf: 2011. \r\n\r\nStatus van de cijfers: \r\nDe cijfers over de jaren 2011 - 2023 zijn definitief.\r\nDe cijfers over 2024 zijn voorlopig.\r\n\r\nWijzigingen per oktober 2025:\r\nActualisatie met definitieve cijfers voor 2023 en voorlopige cijfers voor 2024.\r\n\r\nWijzigingen per 10 maart 2023:\r\nVoor de perioden 2011 t/m 2013 zijn de cijfers voor Duur inkomenspositie: 4 jaar of langer aangevuld.\r\n\r\nWanneer komen er nieuwe cijfers?\r\nDe nieuwe cijfers komen in december 2026 beschikbaar.\r\n\r\n",
+  "Modified": "2025-10-08T00:00:00+02:00",
+  "ReleaseDate": "2025-10-08T00:00:00+02:00",
+  "ModificationDate": "2025-10-08T00:00:00+02:00",
+  "Language": "nl",
+  "TemporalCoverage": "2011-2024",
+  "Authority": "https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "Catalog": "CBS",
+  "Publisher": "https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "ContactPoint": "infoservice@cbs.nl",
+  "Version": "202510080000",
+  "VersionNotes": "",
+  "VersionReason": "Actualisering",
+  "Frequency": "Per jaar",
+  "Provenance": [],
+  "Status": "Regulier",
+  "ObservationCount": 11460,
+  "ObservationsModified": "2025-10-08T00:00:00+02:00",
+  "DatasetType": "Numeric",
+  "RelatedSources": [
+    {
+      "Title": "Laag en langdurig laag inkomen van personen; huishoudenskenmerken",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83842NED"
+    },
+    {
+      "Title": "Laag en langdurig laag inkomen van personen; persoonskenmerken",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83843NED"
+    },
+    {
+      "Title": "Welvaart van particuliere huishoudens; kerncijfers",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83739NED"
+    },
+    {
+      "Title": "Welvaart van particuliere huishoudens; kerncijfers herkomst",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85397NED"
+    },
+    {
+      "Title": "Armoede van personen; persoons- en huishoudenskenmerken",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86127NED"
+    },
+    {
+      "Title": "Laag en langdurig laag inkomen; particuliere huishoudens naar kenmerken, 2000/2014",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70738ned"
+    },
+    {
+      "Title": "Armoede en sociale uitsluiting 2023",
+      "Url": "https://www.cbs.nl/nl-nl/publicatie/2023/51/armoede-sociale-uitsluiting-2023"
+    }
+  ],
+  "GraphTypes": "Table,Bar,Line",
+  "MeasureGroups": [],
+  "Measures": [
+    {
+      "Identifier": "1050010_1",
+      "Index": 4,
+      "Title": "Huishoudens",
+      "Description": "Het aantal particuliere huishoudens met inkomen, per 1 januari van het verslagjaar, waarbij studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing zijn gebleven.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "x 1 000",
+      "Decimals": 1,
+      "PresentationType": null
+    },
+    {
+      "Identifier": "1050010_2",
+      "Index": 5,
+      "Title": "Huishoudens, relatief",
+      "Description": "Het % particuliere huishoudens met inkomen, per 1 januari van het verslagjaar, waarbij studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing zijn gebleven.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": null
+    }
+  ],
+  "Dimensions": [
+    {
+      "Identifier": "KenmerkenVanHuishoudens",
+      "Title": "Kenmerken van huishoudens",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": null,
+      "Kind": "Dimension",
+      "DimensionGroups": [
+        {
+          "Id": "0",
+          "Index": 0,
+          "Title": "Kenmerken van huishoudens",
+          "Description": "",
+          "ParentId": null
+        },
+        {
+          "Id": "1",
+          "Index": 1,
+          "Title": "Totaal",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "2",
+          "Index": 2,
+          "Title": "Samenstelling huishouden",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "3",
+          "Index": 3,
+          "Title": "Hoofdkostwinner: geslacht",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "4",
+          "Index": 4,
+          "Title": "Hoofdkostwinner: leeftijd",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "ParentId": "0"
+        },
+        {
+          "Id": "5",
+          "Index": 5,
+          "Title": "Hoofdkostwinner: migratieachtergrond",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "6",
+          "Index": 6,
+          "Title": "Voornaamste inkomstenbron",
+          "Description": "De voornaamste inkomensbron van het huishouden is vastgesteld door de inkomensbestanddelen van alle leden van het huishouden per inkomensbron samen te tellen. Vervolgens is op basis van (gegroepeerde) bedragen bepaald welk type bron voor het huishouden het belangrijkst is. Bij zelfstandig ondernemers wordt groter gewicht toegekend aan inkomen uit eigen onderneming mits de inkomsten uit andere bronnen niet substantieel zijn. Dit omdat het resultaat uit onderneming soms laag of zelfs negatief is, ofschoon het huishouden hiervoor vele uren per week actief is.",
+          "ParentId": "0"
+        },
+        {
+          "Id": "7",
+          "Index": 7,
+          "Title": "Woningbezit: huur- of koopwoning",
+          "Description": "",
+          "ParentId": "0"
+        }
+      ],
+      "CodeList": [
+        {
+          "Identifier": "1050010",
+          "Index": 1,
+          "Title": "Particuliere huishoudens",
+          "Description": "Eén of meer personen die samen een woonruimte bewonen en zichzelf, dus niet-bedrijfsmatig, voorzien in de dagelijkse levensbehoeften.",
+          "DimensionGroupId": "1"
+        },
+        {
+          "Identifier": "1050015",
+          "Index": 2,
+          "Title": "Type: Eenpersoonshuishouden",
+          "Description": "Particulier huishouden bestaande uit één persoon.\r\n\r\nTot eenpersoonshuishoudens, ook wel alleenstaanden genoemd, worden ook personen gerekend die met anderen op eenzelfde adres wonen maar een eigen huishouding voeren. Alleenstaanden worden in alle burgerlijke staten aangetroffen; zo kunnen gehuwden na het stuklopen van hun relatie (in afwachting van een scheiding) alleen wonen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "A043011",
+          "Index": 3,
+          "Title": "Type: Alleenstaande onder AOW-lft",
+          "Description": "Eenpersoonshuishouden bestaande uit een persoon met een leeftijd onder de AOW gerechtigde leeftijd.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "A043012",
+          "Index": 4,
+          "Title": "Type: Alleenstaande vanaf AOW-lft",
+          "Description": "Eenpersoonshuishouden bestaande uit een persoon met een AOW gerechtigde leeftijd.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1016010",
+          "Index": 5,
+          "Title": "Type: Meerpersoonshuishouden",
+          "Description": "Een particulier huishouden bestaande uit twee of meer personen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050190",
+          "Index": 6,
+          "Title": "Type: Eenoudergezin",
+          "Description": "Particulier huishouden bestaande uit één ouder met één of meer thuiswonende kinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050195",
+          "Index": 7,
+          "Title": "Type: Eenouder, alle kinderen < 18 jr",
+          "Description": "Eenouderhuishouden met (een) minderjarig(e) thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nEenouderhuishouden:\r\n\r\nParticulier huishouden bestaande uit één ouder met één of meer thuiswonende kinderen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie\r\n\r\nheeft met de ouder die tot het huishouden behoort. Onder thuiswonende kinderen \r\n\r\nworden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050200",
+          "Index": 8,
+          "Title": "Type: Eenouder, minst. één kind >= 18 jr",
+          "Description": "Eenouderhuishouden met (een) meerderjarig(e) thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nEenouderhuishouden:\r\n\r\nParticulier huishouden bestaande uit één ouder met één of meer thuiswonende kinderen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie\r\n\r\nheeft met de ouder die tot het huishouden behoort. Onder thuiswonende kinderen \r\n\r\nworden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050055",
+          "Index": 9,
+          "Title": "Type: Paar, totaal",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar met of zonder thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1017780",
+          "Index": 10,
+          "Title": "Type: Paar, zonder kind",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar zonder thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1017790",
+          "Index": 11,
+          "Title": "Type: Paar, zonder kind, onder AOW-lft",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar, waarvan de referentiepersoon de AOW leeftijdsgrens nog niet heeft bereikt, zonder thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nReferentiepersoon:\r\n\r\nLid van het huishouden ten opzichte van wie de posities van de andere leden in het huishouden worden bepaald en van wie de kenmerken eventueel ook aan het huishouden worden toegekend. \r\n\r\nUit de leden van het huishouden wordt de referentiepersoon als volgt gekozen: \r\n\r\n- als er een paar is binnen het huishouden: de man;\r\n\r\n- als het paar van gelijk geslacht is: de oudste van het paar;\r\n\r\n- in een eenouderhuishouden: de ouder;\r\n\r\n- in een overig huishouden: de oudste meerderjarige man of - als deze ontbreekt - de oudste meerderjarige vrouw.\r\n\r\n\r\n\r\nAlgemene ouderdomswet (AOW):\r\n\r\nEen algemene, de gehele bevolking omvattende, verplichte verzekering die personen met de AOW-gerechtigde leeftijd een inkomen garandeert. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering.\r\n\r\nDe AOW-leeftijd was tot 1 januari 2013 65 jaar. Vanaf 2013 wordt de AOW-leeftijd geleidelijk verhoogd tot 67 jaar. Een verdere stijging is afhankelijk van de stijging van de gemiddelde levensverwachting. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering. \r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1017800",
+          "Index": 12,
+          "Title": "Type: Paar, zonder kind, vanaf AOW-lft",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar, waarvan de referentiepersoon AOW gerechtigd is, zonder thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nReferentiepersoon:\r\n\r\nLid van het huishouden ten opzichte van wie de posities van de andere leden in het huishouden worden bepaald en van wie de kenmerken eventueel ook aan het huishouden worden toegekend. \r\n\r\nUit de leden van het huishouden wordt de referentiepersoon als volgt gekozen: \r\n\r\n- als er een paar is binnen het huishouden: de man;\r\n\r\n- als het paar van gelijk geslacht is: de oudste van het paar;\r\n\r\n- in een eenouderhuishouden: de ouder;\r\n\r\n- in een overig huishouden: de oudste meerderjarige man of - als deze ontbreekt - de oudste meerderjarige vrouw.\r\n\r\n\r\n\r\nAlgemene ouderdomswet (AOW):\r\n\r\nEen algemene, de gehele bevolking omvattende, verplichte verzekering die personen met de AOW-gerechtigde leeftijd een inkomen garandeert. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering.\r\n\r\nDe AOW-leeftijd was tot 1 januari 2013 65 jaar. Vanaf 2013 wordt de AOW-leeftijd geleidelijk verhoogd tot 67 jaar. Een verdere stijging is afhankelijk van de stijging van de gemiddelde levensverwachting. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering. \r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1016090",
+          "Index": 13,
+          "Title": "Type: Paar, met kind(eren)",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar met (een) thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1017810",
+          "Index": 14,
+          "Title": "Type: Paar, alle kinderen < 18 jr",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar met alléén (een) minderjarig(e) thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1017880",
+          "Index": 15,
+          "Title": "Type: Paar, minstens één kind >= 18 jr",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar, waarvan de referentiepersoon AOW gerechtigd is, zonder thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nReferentiepersoon:\r\n\r\nLid van het huishouden ten opzichte van wie de posities van de andere leden in het huishouden worden bepaald en van wie de kenmerken eventueel ook aan het huishouden worden toegekend. \r\n\r\nUit de leden van het huishouden wordt de referentiepersoon als volgt gekozen: \r\n\r\n- als er een paar is binnen het huishouden: de man;\r\n\r\n- als het paar van gelijk geslacht is: de oudste van het paar;\r\n\r\n- in een eenouderhuishouden: de ouder;\r\n\r\n- in een overig huishouden: de oudste meerderjarige man of - als deze ontbreekt - de oudste meerderjarige vrouw.\r\n\r\n\r\n\r\nAlgemene ouderdomswet (AOW):\r\n\r\nEen algemene, de gehele bevolking omvattende, verplichte verzekering die personen met de AOW-gerechtigde leeftijd een inkomen garandeert. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering.\r\n\r\nDe AOW-leeftijd was tot 1 januari 2013 65 jaar. Vanaf 2013 wordt de AOW-leeftijd geleidelijk verhoogd tot 67 jaar. Een verdere stijging is afhankelijk van de stijging van de gemiddelde levensverwachting. In het Nederlandse sociale zekerheidsstelsel is dit een volksverzekering. \r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050220",
+          "Index": 16,
+          "Title": "Type: Meerpersoonshuishouden, overig",
+          "Description": "Meerpersoonshuishouden dat uitsluitend bestaat uit overige leden.\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nOverig lid van een huishouden:\r\n\r\nPersoon die anders dan als partner, ouder in een eenouderhuishouden of als thuiswonend kind deel uitmaakt van een particulier huishouden. \r\n\r\nTe denken valt hier bijvoorbeeld aan twee broers (zussen) die samen een huishouden vormen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "3000",
+          "Index": 17,
+          "Title": "Hoofdkostwinner: man",
+          "Description": "",
+          "DimensionGroupId": "3"
+        },
+        {
+          "Identifier": "4000",
+          "Index": 18,
+          "Title": "Hoofdkostwinner: vrouw",
+          "Description": "",
+          "DimensionGroupId": "3"
+        },
+        {
+          "Identifier": "A025340",
+          "Index": 19,
+          "Title": "Hoofdkostwinner: tot 25 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025343",
+          "Index": 20,
+          "Title": "Hoofdkostwinner: 25 tot 45 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025351",
+          "Index": 21,
+          "Title": "Hoofdkostwinner: 45 tot 65 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025359",
+          "Index": 22,
+          "Title": "Hoofdkostwinner: 65 jaar of ouder",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025342",
+          "Index": 23,
+          "Title": "Hoofdkostwinner: 25 tot 35 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025347",
+          "Index": 24,
+          "Title": "Hoofdkostwinner: 35 tot 45 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025350",
+          "Index": 25,
+          "Title": "Hoofdkostwinner: 45 tot 55 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025354",
+          "Index": 26,
+          "Title": "Hoofdkostwinner: 55 tot 65 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025358",
+          "Index": 27,
+          "Title": "Hoofdkostwinner: 65 tot 75 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A042086",
+          "Index": 28,
+          "Title": "Hoofdkostwinner: 75 tot 85 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A042087",
+          "Index": 29,
+          "Title": "Hoofdkostwinner: 85 jaar of ouder",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "A025362",
+          "Index": 30,
+          "Title": "Hoofdkostwinner: Nederland",
+          "Description": "Migratieachtergrond van de hoofdkostwinner: Nederland\r\n\r\n\r\n\r\nPersoon van wie de beide ouders in Nederland zijn geboren.",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "A025363",
+          "Index": 31,
+          "Title": "Hoofdkostwinner: westers",
+          "Description": "Migratieachtergrond van de hoofdkostwinner: westers\r\n\r\n\r\n\r\nPersoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. \r\n\r\nOp grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.\r\n\r\n\r\n\r\nPersoon met een migratieachtergond:\r\n\r\nPersoon van wie ten minste één ouder in het buitenland is geboren.",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "A025368",
+          "Index": 32,
+          "Title": "Hoofdkostwinner: niet-westers",
+          "Description": "Migratieachtergrond van de hoofdkostwinner: niet-westers\r\n\r\n\r\n\r\nPersoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. \r\n\r\nOp grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.\r\n\r\n\r\n\r\nPersoon met een migratieachtergond:\r\n\r\nPersoon van wie ten minste één ouder in het buitenland is geboren.",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "A025376",
+          "Index": 33,
+          "Title": "Hoofdkostwinner: 1e gen westers",
+          "Description": "Migratieachtergrond van de hoofdkostwinner: westerse, 1e generatie\r\n\r\n\r\n\r\nPersoon met een eerste generatie migratieachtergrond:\r\n\r\nPersoon die in het buitenland is geboren en van wie ten minste één ouder in het buitenland is geboren.\r\n\r\n\r\n\r\nPersoon met een westerse migratieachtergrond:\r\n\r\nPersoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. \r\n\r\nOp grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "A025377",
+          "Index": 34,
+          "Title": "Hoofdkostwinner: 2e gen westers",
+          "Description": "Migratieachtergrond van de hoofdkostwinner: westerse, 2e generatie\r\n\r\n\r\n\r\nPersoon met een tweede generatie migratieachtergrond:\r\n\r\nPersoon die in Nederland is geboren en van wie ten minste één ouder in het buitenland is geboren.\r\n\r\n\r\n\r\nPersoon met een westerse migratieachtergrond:\r\n\r\nPersoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. \r\n\r\nOp grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "A025379",
+          "Index": 35,
+          "Title": "Hoofdkostwinner: 1e gen niet-westers",
+          "Description": "Migratieachtergrond van de hoofdkostwinner: niet-westerse, 1e generatie\r\n\r\n\r\n\r\nPersoon met een eerste generatie migratieachtergrond:\r\n\r\nPersoon die in het buitenland is geboren en van wie ten minste één ouder in het buitenland is geboren.\r\n\r\n\r\n\r\nPersoon met een niet-westerse migratieachtergrond:\r\n\r\nPersoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. \r\n\r\nOp grond van hun sociaal-economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "A025380",
+          "Index": 36,
+          "Title": "Hoofdkostwinner: 2e gen niet-westers",
+          "Description": "Migratieachtergrond van de hoofdkostwinner: niet-westerse, 2e generatie\r\n\r\n\r\n\r\nPersoon met een tweede generatie migratieachtergrond:\r\n\r\nPersoon die in Nederland is geboren en van wie ten minste één ouder in het buitenland is geboren.\r\n\r\n\r\n\r\nPersoon met een niet-westerse migratieachtergrond:\r\n\r\nPersoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. \r\n\r\nOp grond van hun sociaal-economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "1013395",
+          "Index": 37,
+          "Title": "Bron: Inkomen als werknemer/zelfstandige",
+          "Description": "Huishoudens waarvoor het loon van werknemer of het inkomen als zelfstandige de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013400",
+          "Index": 38,
+          "Title": "Bron: Inkomen als werknemer",
+          "Description": "Huishoudens waarvoor het loon van werknemer de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013601",
+          "Index": 39,
+          "Title": "Bron: Inkomen als zelfstandige (totaal)",
+          "Description": "Huishoudens waarvoor het inkomen als zelfstandig ondernemer, directeur-grootaandeelhouder en overig zelfstandige de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013602",
+          "Index": 40,
+          "Title": "Bron: Inkomen als zelfstandig ondernemer",
+          "Description": "Huishoudens waarvoor de winst van zelfstandig ondernemer de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013603",
+          "Index": 41,
+          "Title": "Bron: Inkomen als dir.-grootaandeelh.",
+          "Description": "Huishoudens waarvoor het loon als directeur-grootaandeelhouder de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013604",
+          "Index": 42,
+          "Title": "Bron: Inkomen als overige zelfstandige",
+          "Description": "Huishoudens waarvoor overig inkomen uit arbeid (niet in dienstbetrekking) de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013650",
+          "Index": 43,
+          "Title": "Bron: Overdrachtsinkomen",
+          "Description": "Huishoudens waarvoor een uitkering, pensioen of studiefinanciering de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013700",
+          "Index": 44,
+          "Title": "Bron: Uitkering inkomensverzekering",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens werkloosheid, ziekte, arbeidsongeschiktheid en pensioen de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013750",
+          "Index": 45,
+          "Title": "Bron: Uitkering werkloosheid",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens werkloosheid de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013800",
+          "Index": 46,
+          "Title": "Bron: Uitkering arbeidsongeschiktheid",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens ziekte of arbeidsongeschiktheid de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013850",
+          "Index": 47,
+          "Title": "Bron: Uitkering pensioen",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens pensioen of inkomen uit vermogen de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013900",
+          "Index": 48,
+          "Title": "Bron: Uitkering sociale voorziening",
+          "Description": "Huishoudens waarvoor een uitkering sociale voorziening (bijstand en overige uitkering sociale voorziening) de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1013950",
+          "Index": 49,
+          "Title": "Bron: Uitkering bijstand",
+          "Description": "Huishoudens waarvoor een uitkering sociale voorziening (bijstandsuitkering) de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1014040",
+          "Index": 50,
+          "Title": "Bron: Uitk. sociale voorziening, overig",
+          "Description": "Huishoudens waarvoor een uitkering sociale voorziening anders dan bijstand de voornaamste inkomensbron vormt. Het betreft hier onder meer de uitkering voor oudere werklozen, voor jonggehandicapten en uitkeringen in het kader van het Bijstandsbesluit Zelfstandigen en de Toeslagenwet.",
+          "DimensionGroupId": "6"
+        },
+        {
+          "Identifier": "1014800",
+          "Index": 51,
+          "Title": "Woningbezit: eigen woning",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.\r\n",
+          "DimensionGroupId": "7"
+        },
+        {
+          "Identifier": "1014850",
+          "Index": 52,
+          "Title": "Woningbezit: huurwoning",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.\r\n",
+          "DimensionGroupId": "7"
+        },
+        {
+          "Identifier": "1014950",
+          "Index": 53,
+          "Title": "Woningbezit: huurwoning geen huurtoeslag",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.",
+          "DimensionGroupId": "7"
+        },
+        {
+          "Identifier": "1014900",
+          "Index": 54,
+          "Title": "Woningbezit: huurwoning met huurtoeslag",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.\r\n",
+          "DimensionGroupId": "7"
+        }
+      ]
+    },
+    {
+      "Identifier": "InkomensgrensHuishouden",
+      "Title": "Inkomensgrens huishouden",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": null,
+      "Kind": "Dimension",
+      "DimensionGroups": [],
+      "CodeList": [
+        {
+          "Identifier": "1050290",
+          "Index": 1,
+          "Title": "Inkomen tot lage-inkomensgrens",
+          "Description": "Huishoudens behoren tot de categorie \"Laag inkomen\" als het gestandaardiseerd besteedbaar huishoudensinkomen exclusief huurtoeslag lager is dan de lage-inkomensgrens.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A043009",
+          "Index": 2,
+          "Title": "Inkomen tot 101% sociaal minimum",
+          "Description": "Het besteedbaar huishoudensinkomen exclusief gebonden uitkeringen is lager dan 101 procent van het sociaal minimum. Het sociaal minimum is het wettelijk bestaansminimum dat in de politieke besluitvorming is vastgesteld. Tot aan de pensioengerechtigde leeftijd is het sociaal minimum gelijk aan de hoogte van de bijstandsuitkering en vanaf de pensioengerechtigde leeftijd is het ontleend aan het AOW-pensioen. Voor huishoudens met kinderen zijn de kinderbijslag en het kindgebonden budget aan het normbedrag toegevoegd.\r\nHet besteedbaar inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate af van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar een hoger percentage van het sociaal minimum als inkomensgrens gehanteerd. Die percentages zijn 101, 110 of 120%.\r\n",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A043007",
+          "Index": 3,
+          "Title": "Inkomen tot 110% sociaal minimum",
+          "Description": "Het besteedbaar huishoudensinkomen exclusief gebonden uitkeringen is lager dan 110 procent van het sociaal minimum. Het sociaal minimum is het wettelijk bestaansminimum dat in de politieke besluitvorming is vastgesteld. Tot aan de pensioengerechtigde leeftijd is het sociaal minimum gelijk aan de hoogte van de bijstandsuitkering en vanaf de pensioengerechtigde leeftijd is het ontleend aan het AOW-pensioen. Voor huishoudens met kinderen zijn de kinderbijslag en het kindgebonden budget aan het normbedrag toegevoegd.\r\nHet besteedbaar inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate af van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar een hoger percentage van het sociaal minimum als inkomensgrens gehanteerd. Die percentages zijn 101, 110 of 120%.\r\n",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A043008",
+          "Index": 4,
+          "Title": "Inkomen tot 120% sociaal minimum",
+          "Description": "Het besteedbaar huishoudensinkomen exclusief gebonden uitkeringen is lager dan 120 procent van het sociaal minimum. Het sociaal minimum is het wettelijk bestaansminimum dat in de politieke besluitvorming is vastgesteld. Tot aan de pensioengerechtigde leeftijd is het sociaal minimum gelijk aan de hoogte van de bijstandsuitkering en vanaf de pensioengerechtigde leeftijd is het ontleend aan het AOW-pensioen. Voor huishoudens met kinderen zijn de kinderbijslag en het kindgebonden budget aan het normbedrag toegevoegd.\r\nHet besteedbaar inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate af van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar een hoger percentage van het sociaal minimum als inkomensgrens gehanteerd. Die percentages zijn 101, 110 of 120%.\r\n",
+          "DimensionGroupId": null
+        }
+      ]
+    },
+    {
+      "Identifier": "DuurInkomenspositie",
+      "Title": "Duur inkomenspositie",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": null,
+      "Kind": "Dimension",
+      "DimensionGroups": [],
+      "CodeList": [
+        {
+          "Identifier": "A028721",
+          "Index": 1,
+          "Title": "Ten minste 1 jaar",
+          "Description": "De duur geeft aan hoeveel opeenvolgende jaren personen of huishoudens tot de geselecteerde categorie met kans op armoede behoren.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A028724",
+          "Index": 2,
+          "Title": "Vier jaar of langer",
+          "Description": "De duur geeft aan hoeveel opeenvolgende jaren personen of huishoudens tot de geselecteerde categorie met kans op armoede behoren.",
+          "DimensionGroupId": null
+        }
+      ]
+    },
+    {
+      "CodeList": [
+        {
+          "Status": "Definitief",
+          "Identifier": "2011JJ00",
+          "Index": 1,
+          "Title": "2011",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2012JJ00",
+          "Index": 2,
+          "Title": "2012",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2013JJ00",
+          "Index": 3,
+          "Title": "2013",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2014JJ00",
+          "Index": 4,
+          "Title": "2014",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2015JJ00",
+          "Index": 5,
+          "Title": "2015",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2016JJ00",
+          "Index": 6,
+          "Title": "2016",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2017JJ00",
+          "Index": 7,
+          "Title": "2017",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2018JJ00",
+          "Index": 8,
+          "Title": "2018",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2019JJ00",
+          "Index": 9,
+          "Title": "2019",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2020JJ00",
+          "Index": 10,
+          "Title": "2020",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2021JJ00",
+          "Index": 11,
+          "Title": "2021",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2022JJ00",
+          "Index": 12,
+          "Title": "2022",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2023JJ00",
+          "Index": 13,
+          "Title": "2023",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Voorlopig",
+          "Identifier": "2024JJ00",
+          "Index": 14,
+          "Title": "2024",
+          "Description": "Voorlopige cijfers",
+          "DimensionGroupId": "0"
+        }
+      ],
+      "Identifier": "Perioden",
+      "Title": "Perioden",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": true,
+      "Kind": "TimeDimension",
+      "DimensionGroups": [
+        {
+          "Id": "0",
+          "Index": 0,
+          "Title": "Jaren",
+          "Description": null,
+          "ParentId": null
+        }
+      ]
+    }
+  ],
+  "Distributions": [
+    {
+      "Format": "csv",
+      "MediaType": "csv",
+      "Language": "nl"
+    },
+    {
+      "Format": "odata",
+      "MediaType": "odata",
+      "Language": "nl"
+    }
+  ],
+  "License": "https://creativecommons.org/licenses/by/4.0/",
+  "Source": "CBS.",
+  "Summary": "Armoede,risico op armoede,laag inkomen,huishoudens\nVoornaamste inkomensbron,woonsituatie,samenstelling huishouden",
+  "LongDescription": "INHOUDSOPGAVE\r\n\r\n1. Toelichting\r\n2. Definities en verklaring van symbolen\r\n3. Koppelingen naar relevante tabellen en artikelen\r\n4. Bronnen en methoden\r\n5. Meer informatie \r\n\r\n1. TOELICHTING\r\n\r\nDeze tabel bevat uitkomsten over huishoudens met een relatief laag inkomen. De uitkomsten worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.\r\n\r\nDe gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven.\r\n\r\nVoor de armoedekwalificatie wordt vanaf 2024 de nieuwe meetmethode van het CBS, SCP en Nibud gehanteerd. Cijfers over laag inkomen worden vanaf 2024 niet meer geactualiseerd.\r\n\r\nGegevens beschikbaar vanaf: 2011. \r\n\r\nStatus van de cijfers: \r\nDe cijfers over de jaren 2011 - 2023 zijn definitief.\r\nDe cijfers over 2024 zijn voorlopig.\r\n\r\nWijzigingen per oktober 2025:\r\nActualisatie met definitieve cijfers voor 2023 en voorlopige cijfers voor 2024.\r\n\r\nWijzigingen per 10 maart 2023:\r\nVoor de perioden 2011 t/m 2013 zijn de cijfers voor Duur inkomenspositie: 4 jaar of langer aangevuld.\r\n\r\nWanneer komen er nieuwe cijfers?\r\nDe nieuwe cijfers komen in december 2026 beschikbaar.\r\n\r\n2. DEFINITIES EN VERKLARING VAN SYMBOLEN\r\n\r\nDefinities:\r\n\r\nLage-inkomensgrens\r\nDe lage-inkomensgrens betreft een vast bedrag dat voor alle typen huishoudens een gelijke koopkracht vertegenwoordigt. De hoogte ervan is geënt op de bijstandsuitkering van een alleenstaande in 1979, toen deze op een hoog niveau lag. Er is sprake van een laag inkomen als het inkomen omgerekend naar een inkomen van een alleenstaande, een lagere koopkracht vertegenwoordigt dan een bedrag van 9 250 euro in prijzen van 2000. Het inkomensbegrip dat hierbij wordt gehanteerd, is het besteedbaar inkomen verminderd met huurtoeslag. Inkomens van huishoudens van verschillende grootte en samenstelling worden met behulp van een equivalentiefactor vergelijkbaar gemaakt. Vervolgens wordt dit gestandaardiseerde inkomen (met het prijsindexcijfer voor de gezinsconsumptie) herleid naar het prijspeil in 2000. Het resulterende gestandaardiseerde en gedefleerde inkomen is laag wanneer het minder is dan 9 250 euro.\r\n\r\nSociaal minimum\r\nHet beleidsmatig of sociaal minimum bestaat uit de netto bijstandsuitkering of (voor ouderen) de netto AOW-uitkering aangevuld met eventuele kinderbijslag, kindgebonden budget, zorgtoeslag, huurtoeslag, en (voor sommige jaren) incidentele koopkrachttegemoetkomingen. De nominale premie zorgverzekering wordt daarbij in mindering gebracht. Bijzondere bijstand en kinderopvangtoeslag blijven buiten de door het CBS gebruikte afbakening. Het sociaal minimum is het wettelijk bestaansminimum dat in de politieke besluitvorming is vastgesteld. Tot aan de pensioengerechtigde leeftijd is het sociaal minimum gelijk aan de hoogte van de bijstandsuitkering en vanaf de pensioengerechtigde leeftijd is het ontleend aan het AOW-pensioen. Voor huishoudens met kinderen zijn de kinderbijslag en het kindgebonden budget aan het normbedrag toegevoegd. Het CBS berekent per afzonderlijk huishouden de verhouding van het waargenomen besteedbaar jaarinkomen (teller) en de wettelijke netto bijstandsnorm (of netto AOW-norm) aangevuld met de in dat jaar waargenomen bedragen van ontvangen kinderbijslag, ontvangen kindgebonden budget, saldo ontvangen zorgtoeslag en nominale premie zorgverzekering en ontvangen huurtoeslag (noemer). Indien deze verhouding groter is dan 1 (100 procent) of beter gezegd 1,01 (101 procent) geldt dat het besteedbaar inkomen van het desbetreffende huishouden in het desbetreffende jaar boven de kritische beleidsmatige grens uitkomt, dus dat het huishouden geen risico op armoede heeft volgens de beleidsmatige grens. Ligt de ratio onder de 101 procent dan is er wel sprake van een armoederisico voor het desbetreffende huishouden. De grens is op 101 procent gelegd en niet op 100 om te voorkomen dat door afronding van inkomensposten huishoudens onterecht boven de 100 procent uitkomen en daarmee als ‘niet-arm’ worden geregistreerd. Voor de uitvoering van het gemeentelijk armoedebeleid wordt vaak uitgegaan van een inkomensgrens die gelijkgesteld is aan een hoger percentage (bijvoorbeeld 110 of 120 procent) van het sociaal minimum.\r\n\r\nVerklaring van symbolen:\r\n\r\nniets (blanco)\t: het cijfer kan op logische gronden niet voorkomen\r\n. \t\t: het cijfer is onbekend, onvoldoende betrouwbaar of geheim\r\n*\t\t: voorlopige cijfers\r\n**\t\t: nader voorlopige cijfers\r\n\r\n3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN\r\n\r\nRelevante tabellen:\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83842NED'>Laag en langdurig laag inkomen van personen; huishoudenskenmerken</a>\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83843NED'>Laag en langdurig laag inkomen van personen; persoonskenmerken</a>\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83739NED'>Welvaart van particuliere huishoudens; kerncijfers</a>\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85397NED'>Welvaart van particuliere huishoudens; kerncijfers herkomst</a> \r\n\r\nDeze tabel bevat cijfers over armoede volgens de nieuwe meetmethode:\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86127NED'>Armoede van personen; persoons- en huishoudenskenmerken</a>\r\n\r\nVoor de periode 2001-2014 zijn soortgelijke gegevens beschikbaar. Wegens verschillen in wijze van samenstelling zijn deze niet geheel vergelijkbaar met uitkomsten van latere jaren:\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70738ned'>Laag en langdurig laag inkomen; particuliere huishoudens naar kenmerken, 2000/2014</a>\r\n\r\nRelevante artikelen:\r\n<a href='https://www.cbs.nl/nl-nl/publicatie/2023/51/armoede-sociale-uitsluiting-2023'>Armoede en sociale uitsluiting 2023</a>\r\n\r\nMeer informatie is te vinden op de themapagina <a href=https://www.cbs.nl/nl-nl/arbeid-en-inkomen/inkomen-en-bestedingen>Inkomen en bestedingen</a>.\r\n\r\n4. BRONNEN EN METHODEN\r\n\r\nDe onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href=https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/integraal-inkomens-en-vermogensonderzoek>Integraal inkomens- en vermogensonderzoek</a>.\r\n\r\n5. MEER INFORMATIE\r\n\r\n<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>\r\n\r\nCopyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen \r\nVerveelvoudiging is toegestaan, mits CBS als bron wordt vermeld."
+}

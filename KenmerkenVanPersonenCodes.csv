@@ -1,0 +1,97 @@
+Identifier;DimensionGroupId;DimensionId;Index;Title;Description
+T009002;1;KenmerkenVanPersonen;1;Totaal personen;
+10680;2;KenmerkenVanPersonen;2;Leeftijd: 0 tot 15 jaar;
+53050;2;KenmerkenVanPersonen;3;Leeftijd: 15 tot 25 jaar;
+53310;2;KenmerkenVanPersonen;4;Leeftijd: 25 tot 45 jaar;
+53715;2;KenmerkenVanPersonen;5;Leeftijd: 45 tot 65 jaar;
+80200;2;KenmerkenVanPersonen;6;Leeftijd: 65 jaar of ouder;
+53500;2;KenmerkenVanPersonen;7;Leeftijd: 25 tot 35 jaar;
+53700;2;KenmerkenVanPersonen;8;Leeftijd: 35 tot 45 jaar;
+53800;2;KenmerkenVanPersonen;9;Leeftijd: 45 tot 55 jaar;
+53900;2;KenmerkenVanPersonen;10;Leeftijd: 55 tot 65 jaar;
+53925;2;KenmerkenVanPersonen;11;Leeftijd: 65 tot 75 jaar;
+53975;2;KenmerkenVanPersonen;12;Leeftijd: 75 tot 85 jaar;
+21800;2;KenmerkenVanPersonen;13;Leeftijd: 85 jaar of ouder;
+1012600;3;KenmerkenVanPersonen;14;Migratieachtergrond: Nederland;"Persoon met een Nederlandse achtergrond
+
+Persoon van wie de beide ouders in Nederland zijn geboren."
+2012655;3;KenmerkenVanPersonen;15;Migratieachtergrond: westers;"Persoon met een westerse migratieachtergrond
+
+Persoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. 
+Op grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin."
+2012657;3;KenmerkenVanPersonen;16;Migratieachtergrond: niet-westers;"Persoon met een niet-westerse migratieachtergrond
+
+Persoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. Op grond van hun sociaal-economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin."
+2012700;3;KenmerkenVanPersonen;17;Migratieachtergrond: 1e gen westers;"Persoon met een eerste generatie westerse migratieachtergrond
+
+Persoon met een westerse migratieachtergrond:
+Persoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. 
+Op grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.
+
+Persoon met een eerste generatie migratieachtergrond:
+Persoon die in het buitenland is geboren met ten minste één in het buitenland geboren ouder."
+2012750;3;KenmerkenVanPersonen;18;Migratieachtergrond: 2e gen westers;"Persoon met een tweede generatie westerse migratieachtergrond
+
+Persoon met een westerse migratieachtergrond:
+Persoon met als migratieachtergrond een van de landen in Europa (exclusief Turkije), Noord-Amerika en Oceanië, en Indonesië en Japan. 
+Op grond van hun sociaal- economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.
+
+Persoon met een tweede generatie migratieachtergrond:
+Persoon die in Nederland is geboren met ten minste één in het buitenland geboren ouder."
+2013050;3;KenmerkenVanPersonen;19;Migratieachtergrond: 1e gen niet-west...;"Persoon met een eerste generatie niet-westerse migratieachtergrond
+
+Persoon met een niet-westerse migratieachtergrond:
+Persoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. Op grond van hun sociaal-economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.
+
+Persoon met een eerste generatie migratieachtergrond:
+Persoon die in het buitenland is geboren met ten minste één in het buitenland geboren ouder."
+2013100;3;KenmerkenVanPersonen;20;Migratieachtergrond: 2e gen niet-west...;"Persoon met een tweede generatie niet-westerse migratieachtergrond
+
+Persoon met een niet-westerse migratieachtergrond:
+Persoon met als migratieachtergrond een van de landen in Afrika, Latijns-Amerika en Azië (exclusief Indonesië en Japan) of Turkije. Op grond van hun sociaal-economische en sociaal-culturele positie worden personen met een migratieachtergrond uit Indonesië en Japan tot de westerse migratieachtergrond gerekend. Het gaat vooral om mensen die in het voormalig Nederlands-Indië zijn geboren en werknemers van Japanse bedrijven met hun gezin.
+
+Persoon met een tweede generatie migratieachtergrond:
+Persoon die in Nederland is geboren met ten minste één in het buitenland geboren ouder."
+1016411;4;KenmerkenVanPersonen;21;Positie hh: hoofdkostwinner;"Positie in huishouden: hoofdkostwinner.
+De positie in het huishouden is bepaald naar de aard van de relatie tot de hoofdkostwinner. De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie. Wie binnen een huishouden de hoofdkostwinner is, is afhankelijk van het inkomen en van de samenstelling van het huishouden."
+1016400;4;KenmerkenVanPersonen;22;Positie hh: hoofdkostw. zonder partner;"Positie in huishouden: hoofdkostwinner zonder partner.
+De positie in het huishouden is bepaald naar de aard van de relatie tot de hoofdkostwinner. De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie. Wie binnen een huishouden de hoofdkostwinner is, is afhankelijk van het inkomen en van de samenstelling van het huishouden."
+1016410;4;KenmerkenVanPersonen;23;Positie hh: hoofdkostw. met partner;"Positie in huishouden: hoofdkostwinner met partner.
+De positie in het huishouden is bepaald naar de aard van de relatie tot de hoofdkostwinner. De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie. Wie binnen een huishouden de hoofdkostwinner is, is afhankelijk van het inkomen en van de samenstelling van het huishouden."
+1016420;4;KenmerkenVanPersonen;24;Positie hh: partner van hoofdkostwinner;"Positie in huishouden: partner van hoofdkostwinner.
+De positie in het huishouden is bepaald naar de aard van de relatie tot de hoofdkostwinner. De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie. Wie binnen een huishouden de hoofdkostwinner is, is afhankelijk van het persoonlijk inkomen en van de samenstelling van het huishouden."
+1016445;4;KenmerkenVanPersonen;25;Positie hh: kind < 18 jaar;"Positie in huishouden: minderjarig kind.
+De positie in het huishouden is bepaald naar de aard van de relatie tot de hoofdkostwinner. De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie. Wie binnen een huishouden de hoofdkostwinner is, is afhankelijk van het persoonlijk inkomen en van de samenstelling van het huishouden."
+1016460;4;KenmerkenVanPersonen;26;Positie hh: kind >=18 jaar;"Positie in huishouden: meerderjarig kind.
+De positie in het huishouden is bepaald naar de aard van de relatie tot de hoofdkostwinner. De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie. Wie binnen een huishouden de hoofdkostwinner is, is afhankelijk van het persoonlijk inkomen en van de samenstelling van het huishouden."
+1016520;4;KenmerkenVanPersonen;27;Positie hh: overig lid;Positie in huishouden: overig lid. De positie in het huishouden is bepaald naar de aard van de relatie tot de hoofdkostwinner. De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie. Wie binnen een huishouden de hoofdkostwinner is, is afhankelijk van het persoonlijk inkomen en van de samenstelling van het huishouden. 
+2017551;5;KenmerkenVanPersonen;28;SEC: werknemer;"Persoon waarvoor het inkomen uit arbeid de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2016951;5;KenmerkenVanPersonen;29;SEC: zelfstandige;"Persoon waarvoor het inkomen als zelfstandig ondernemer, directeur-grootaandeelhouder, meewerkend gezinslid of overig zelfstandige de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017150;5;KenmerkenVanPersonen;30;SEC: uitkerings- en pensioenontvanger;"Persoon waarvoor een uitkering of pensioen de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017553;5;KenmerkenVanPersonen;31;SEC: uitkeringsontvanger;"Persoon waarvoor een uitkering inkomensverzekering wegens werkloosheid, ziekte, arbeidsongeschiktheid of uitkering sociale voorziening de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017200;5;KenmerkenVanPersonen;32;SEC: ontvanger werkloosheidsuitkering;"Persoon waarvoor een uitkering inkomensverzekering wegens werkloosheid de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017201;5;KenmerkenVanPersonen;33;SEC: ontvanger van sociale voorziening;"Persoon waarvoor een uitkering sociale voorziening (bijstand en overige uitkering sociale voorziening) de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017350;5;KenmerkenVanPersonen;34;SEC: arbeidsongeschikte;"Persoon waarvoor een uitkering inkomensverzekering wegens ziekte of arbeidsongeschiktheid de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017554;5;KenmerkenVanPersonen;35;SEC: pensioenontvanger;"Persoon waarvoor een uitkering inkomensverzekering wegens pensioen de voornaamste inkomensbron is.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017570;5;KenmerkenVanPersonen;36;SEC: (school)kind of student;"Persoon die onderwijs volgt.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."
+2017550;5;KenmerkenVanPersonen;37;SEC: overige (zonder inkomen);"Persoon zonder eigen inkomen of met uitsluitend inkomen uit vermogen, huursubsidie of huurtoeslag, of kinderbijslag.
+De voornaamste sociaaleconomische activiteit (SEC) van een persoon is vastgesteld op basis van inkomensbronnen en het volgen van onderwijs. 
+Bij het bepalen van de sociaaleconomische categorie wordt groter gewicht toegekend aan inkomen uit eigen onderneming , omdat het resultaat uit onderneming laag of zelfs negatief kan zijn, ofschoon de persoon hiervoor vele uren per week actief is. Ook aan inschrijving in voltijdonderwijs is bij de vaststelling van de sociaaleconomische categorie prioriteit toegekend. Personen zijn in deze gevallen alleen getypeerd als zelfstandig ondernemer respectievelijk scholier/student, indien geen substantiële inkomsten uit andere bronnen bij de persoon aanwezig waren."

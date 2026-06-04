@@ -1,0 +1,5 @@
+Identifier;Title;Description;MapYear;ReleasePolicy;Kind;ContainsGroups;ContainsCodes;CodesUrl;GroupsUrl
+KenmerkenVanHuishoudens;Kenmerken van huishoudens;;;;Dimension;True;True;KenmerkenVanHuishoudensCodes.csv;KenmerkenVanHuishoudensGroups.csv
+InkomensgrensHuishouden;Inkomensgrens huishouden;;;;Dimension;False;True;InkomensgrensHuishoudenCodes.csv;
+DuurInkomenspositie;Duur inkomenspositie;;;;Dimension;False;True;DuurInkomenspositieCodes.csv;
+Perioden;Perioden;;;True;TimeDimension;True;True;PeriodenCodes.csv;PeriodenGroups.csv

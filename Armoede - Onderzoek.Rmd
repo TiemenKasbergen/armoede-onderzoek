@@ -1,23 +1,41 @@
 ---
 title: "Armoede in Nederland"
 author: "Tiemen & Thijs"
-date: "2026-06-02"
+date: "2026-06-04"
 output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 ```
 
 ## Introductie
 
-In dit rapport onderzoeken we armoede in Nederland aan de hand van publieke data.
+In dit rapport onderzoeken we armoede in Nederland aan de hand van publieke data van het CBS.
 
 ## Data
 
-Hier laden we de data in.
+```{r data-laden}
+obs_raw <- read_csv2("Observations.csv")
+obs_raw <- obs_raw %>% mutate(jaar = as.integer(substr(Perioden, 1, 4)))
+
+armoede_pct <- obs_raw %>%
+  filter(KenmerkenVanHuishoudens == "1050010",
+         Measure == "1050010_2",
+         InkomensgrensHuishouden == "1050290",
+         DuurInkomenspositie == "A028721")
+```
 
 ## Visualisaties
 
-Hier komen de grafieken.
+```{r tijdreeks}
+ggplot(armoede_pct, aes(x = jaar, y = Value)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "steelblue") +
+  labs(title = "Armoede in Nederland over de tijd",
+       x = "Jaar",
+       y = "% huishoudens onder armoedegrens") +
+  theme_minimal()
+```
