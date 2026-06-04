@@ -1,27 +1,22 @@
 Identifier;Title;Description;Modified;ReleaseDate;ModificationDate;Language;TemporalCoverage;Authority;Catalog;Publisher;ContactPoint;Version;VersionNotes;VersionReason;Frequency;Status;ObservationCount;ObservationsModified;DatasetType;GraphTypes;License;Source;Summary;LongDescription
-83841NED;"Laag en langdurig laag inkomen van huishoudens; huishoudenskenmerken";"Deze tabel bevat uitkomsten over huishoudens met een relatief laag inkomen. De uitkomsten worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.
+85678NED;"Laag en langdurig laag inkomen; huishoudenskenmerken, regio (indeling 2023)";"Deze tabel bevat regionale statistieken over huishoudens met een relatief laag inkomen. De gegevens worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie per regio. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.
 
-De gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven.
+De gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven. Peildatum voor de gemeentelijke indeling is 1 januari 2023.
 
-Voor de armoedekwalificatie wordt vanaf 2024 de nieuwe meetmethode van het CBS, SCP en Nibud gehanteerd. Cijfers over laag inkomen worden vanaf 2024 niet meer geactualiseerd.
+Gegevens beschikbaar van 2011 t/m 2022.
 
-Gegevens beschikbaar vanaf: 2011. 
+Status van de cijfers:
+De cijfers in deze tabel voor 2011 t/m 2021 zijn definitief. De cijfers voor 2022 zijn voorlopig.
 
-Status van de cijfers: 
-De cijfers over de jaren 2011 - 2023 zijn definitief.
-De cijfers over 2024 zijn voorlopig.
-
-Wijzigingen per oktober 2025:
-Actualisatie met definitieve cijfers voor 2023 en voorlopige cijfers voor 2024.
-
-Wijzigingen per 10 maart 2023:
-Voor de perioden 2011 t/m 2013 zijn de cijfers voor Duur inkomenspositie: 4 jaar of langer aangevuld.
+Wijzigingen per november 2024:
+Geen, deze tabel is stopgezet.
+Deze tabel wordt opgevolgd door de tabel 'Laag en langdurig laag inkomen; regio (indeling 2024)'. Zie paragraaf 3.
 
 Wanneer komen er nieuwe cijfers?
-De nieuwe cijfers komen in december 2026 beschikbaar.
+Niet meer van toepassing.
 
-";2025-10-08T00:00:00+02:00;2025-10-08T00:00:00+02:00;2025-10-08T00:00:00+02:00;nl;2011-2024;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;CBS;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;infoservice@cbs.nl;202510080000;;Actualisering;Per jaar;Regulier;11460;2025-10-08T00:00:00+02:00;Numeric;Table,Bar,Line;https://creativecommons.org/licenses/by/4.0/;CBS.;"Armoede,risico op armoede,laag inkomen,huishoudens
-Voornaamste inkomensbron,woonsituatie,samenstelling huishouden";"INHOUDSOPGAVE
+";2024-11-01T00:00:00+01:00;2024-11-01T00:00:00+01:00;2023-11-08T00:00:00+01:00;nl;2011-2022;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;CBS;https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek;infoservice@cbs.nl;202411010000;;Stopgezet;Stopgezet;Gediscontinueerd;11924982;2023-11-08T00:00:00+01:00;Numeric;Table,Bar,Line,Map;https://creativecommons.org/licenses/by/4.0/;CBS.;"Huishoudens, personen, minderjarige kinderen, laag inkomen
+Inkomensgroep, duur inkomenspositie, huishoudenskenmerken, gemeente";"INHOUDSOPGAVE
 
 1. Toelichting
 2. Definities en verklaring van symbolen
@@ -31,26 +26,21 @@ Voornaamste inkomensbron,woonsituatie,samenstelling huishouden";"INHOUDSOPGAVE
 
 1. TOELICHTING
 
-Deze tabel bevat uitkomsten over huishoudens met een relatief laag inkomen. De uitkomsten worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.
+Deze tabel bevat regionale statistieken over huishoudens met een relatief laag inkomen. De gegevens worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie per regio. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.
 
-De gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven.
+De gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven. Peildatum voor de gemeentelijke indeling is 1 januari 2023.
 
-Voor de armoedekwalificatie wordt vanaf 2024 de nieuwe meetmethode van het CBS, SCP en Nibud gehanteerd. Cijfers over laag inkomen worden vanaf 2024 niet meer geactualiseerd.
+Gegevens beschikbaar van 2011 t/m 2022.
 
-Gegevens beschikbaar vanaf: 2011. 
+Status van de cijfers:
+De cijfers in deze tabel voor 2011 t/m 2021 zijn definitief. De cijfers voor 2022 zijn voorlopig.
 
-Status van de cijfers: 
-De cijfers over de jaren 2011 - 2023 zijn definitief.
-De cijfers over 2024 zijn voorlopig.
-
-Wijzigingen per oktober 2025:
-Actualisatie met definitieve cijfers voor 2023 en voorlopige cijfers voor 2024.
-
-Wijzigingen per 10 maart 2023:
-Voor de perioden 2011 t/m 2013 zijn de cijfers voor Duur inkomenspositie: 4 jaar of langer aangevuld.
+Wijzigingen per november 2024:
+Geen, deze tabel is stopgezet.
+Deze tabel wordt opgevolgd door de tabel 'Laag en langdurig laag inkomen; regio (indeling 2024)'. Zie paragraaf 3.
 
 Wanneer komen er nieuwe cijfers?
-De nieuwe cijfers komen in december 2026 beschikbaar.
+Niet meer van toepassing.
 
 2. DEFINITIES EN VERKLARING VAN SYMBOLEN
 
@@ -64,37 +54,34 @@ Het beleidsmatig of sociaal minimum bestaat uit de netto bijstandsuitkering of (
 
 Verklaring van symbolen:
 
-niets (blanco)	: het cijfer kan op logische gronden niet voorkomen
-. 		: het cijfer is onbekend, onvoldoende betrouwbaar of geheim
-*		: voorlopige cijfers
-**		: nader voorlopige cijfers
+niets (blanco) : het cijfer kan op logische gronden niet voorkomen
+.              : het cijfer is onbekend, onvoldoende betrouwbaar of geheim
+*              : voorlopige cijfers
+**             : nader voorlopige cijfers
+
+De cijfers zijn afgerond. Hierdoor kan het voorkomen, dat de som van de detailgegevens afwijkt van het totaal.
 
 3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN
 
 Relevante tabellen:
-<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83842NED'>Laag en langdurig laag inkomen van personen; huishoudenskenmerken</a>
-<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83843NED'>Laag en langdurig laag inkomen van personen; persoonskenmerken</a>
-<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83739NED'>Welvaart van particuliere huishoudens; kerncijfers</a>
-<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85397NED'>Welvaart van particuliere huishoudens; kerncijfers herkomst</a> 
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85711NED'>Inkomen van huishoudens; kenmerken, regio (indeling 2023)</a> 
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85712NED'>Inkomen van personen; kenmerken, regio (indeling 2023)</a> 
 
-Deze tabel bevat cijfers over armoede volgens de nieuwe meetmethode:
-<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86127NED'>Armoede van personen; persoons- en huishoudenskenmerken</a>
-
-Voor de periode 2001-2014 zijn soortgelijke gegevens beschikbaar. Wegens verschillen in wijze van samenstelling zijn deze niet geheel vergelijkbaar met uitkomsten van latere jaren:
-<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70738ned'>Laag en langdurig laag inkomen; particuliere huishoudens naar kenmerken, 2000/2014</a>
+De tabel wordt opgevolgd door: 
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86006NED'>Laag en langdurig laag inkomen; huishoudenskenmerken, regio (indeling 2024)</a>
 
 Relevante artikelen:
-<a href='https://www.cbs.nl/nl-nl/publicatie/2023/51/armoede-sociale-uitsluiting-2023'>Armoede en sociale uitsluiting 2023</a>
+<a href=https://www.cbs.nl/nl-nl/publicatie/2023/51/armoede-sociale-uitsluiting-2023>Armoede en sociale uitsluiting 2023</a>
 
-Meer informatie is te vinden op de themapagina <a href=https://www.cbs.nl/nl-nl/arbeid-en-inkomen/inkomen-en-bestedingen>Inkomen en bestedingen</a>.
+Meer informatie is te vinden op de themapagina <a href=""https://www.cbs.nl/nl-nl/arbeid-en-inkomen/inkomen-en-bestedingen"">Inkomen en bestedingen</a>.
 
 4. BRONNEN EN METHODEN
 
-De onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href=https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/integraal-inkomens-en-vermogensonderzoek>Integraal inkomens- en vermogensonderzoek</a>.
+De onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href=""https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/integraal-inkomens-en-vermogensonderzoek"">Integraal inkomens- en vermogensonderzoek</a>.
 
 5. MEER INFORMATIE
 
-<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>
+<a href=""https://www.cbs.nl/nl-nl/over-ons/contact/infoservice"">Infoservice</a>
 
 Copyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen 
 Verveelvoudiging is toegestaan, mits CBS als bron wordt vermeld."

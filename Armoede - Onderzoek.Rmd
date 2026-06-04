@@ -6,7 +6,7 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(tidyverse)
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 ```
@@ -18,6 +18,8 @@ In dit rapport onderzoeken we armoede in Nederland aan de hand van publieke data
 ## Data
 
 ```{r data-laden}
+library(sf)
+
 obs_raw <- read_csv2("Observations.csv")
 obs_raw <- obs_raw %>% mutate(jaar = as.integer(substr(Perioden, 1, 4)))
 
@@ -26,7 +28,28 @@ armoede_pct <- obs_raw %>%
          Measure == "1050010_2",
          InkomensgrensHuishouden == "1050290",
          DuurInkomenspositie == "A028721")
+
+obs2 <- read_csv2("Observations.csv")
+
+regio_codes <- read_csv2("RegioSCodes.csv") %>%
+  filter(DimensionGroupId == "PV") %>%
+  select(Identifier, Title) %>%
+  mutate(Title = str_remove(Title, " \\(PV\\)"))
+
+kaart_data <- obs2 %>%
+  filter(RegioS %in% regio_codes$Identifier,
+         Measure == "1050010_2",
+         InkomensgrensHuishouden == "1050290",
+         DuurInkomenspositie == "A028721",
+         KenmerkenVanHuishoudens == "1050010",
+         Perioden == "2022JJ00") %>%
+  left_join(regio_codes, by = c("RegioS" = "Identifier")) %>%
+  mutate(Title = case_when(
+    Title == "Fryslân" ~ "Friesland",
+    TRUE ~ Title
+  ))
 ```
+
 
 ## Visualisaties
 
@@ -38,4 +61,63 @@ ggplot(armoede_pct, aes(x = jaar, y = Value)) +
        x = "Jaar",
        y = "% huishoudens onder armoedegrens") +
   theme_minimal()
+```
+```{r subpopulatie}
+groepen <- c("1050015", "1050190", "1050055", "1016090")
+
+kenmerken <- read_csv2("KenmerkenVanHuishoudensCodes.csv") %>% 
+  select(Identifier, Title)
+
+subpop <- obs_raw %>%
+  filter(KenmerkenVanHuishoudens %in% groepen,
+         Measure == "1050010_2",
+         InkomensgrensHuishouden == "1050290",
+         DuurInkomenspositie == "A028721") %>%
+  left_join(kenmerken, by = c("KenmerkenVanHuishoudens" = "Identifier")) %>%
+  mutate(Title = str_remove(Title, "Type: "))
+
+ggplot(subpop, aes(x = jaar, y = Value, color = Title)) +
+  geom_line(size = 1) +
+  geom_point() +
+  labs(title = "Armoede per huishoudenstype over de tijd",
+       x = "Jaar",
+       y = "% onder armoedegrens",
+       color = "Huishoudenstype") +
+  theme_minimal()
+```
+```{r event}
+armoede_pct <- armoede_pct %>%
+  mutate(periode = ifelse(jaar < 2020, "Voor COVID-19", "Na COVID-19"))
+
+ggplot(armoede_pct, aes(x = jaar, y = Value)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "steelblue") +
+  geom_vline(xintercept = 2020, linetype = "dashed", color = "red") +
+  annotate("text", x = 2020.2, y = 9, label = "COVID-19 (2020)", hjust = 0, color = "red") +
+  labs(title = "Armoede in Nederland voor en na COVID-19",
+       x = "Jaar",
+       y = "% huishoudens onder armoedegrens") +
+  theme_minimal()
+```
+```{r kaart}
+library(sf)
+
+# Provinciegrenzen downloaden van CBS
+nl_map <- st_read("https://cartomap.github.io/nl/wgs84/provincie_2022.geojson", quiet = TRUE)
+
+kaart_data <- kaart_data %>%
+  mutate(Title = case_when(
+    Title == "Fryslân" ~ "Friesland",
+    TRUE ~ Title
+  ))
+
+nl_map_data <- nl_map %>%
+  left_join(kaart_data, by = c("statnaam" = "Title"))
+
+ggplot(nl_map_data) +
+  geom_sf(aes(fill = Value)) +
+  scale_fill_gradient(low = "lightyellow", high = "darkred") +
+  labs(title = "Armoede per provincie in Nederland (2022)",
+       fill = "% onder\narmoedegrens") +
+  theme_void()
 ```

@@ -1,0 +1,3837 @@
+{
+  "Identifier": "85678NED",
+  "Title": "Laag en langdurig laag inkomen; huishoudenskenmerken, regio (indeling 2023)",
+  "Description": "Deze tabel bevat regionale statistieken over huishoudens met een relatief laag inkomen. De gegevens worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie per regio. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.\r\n\r\nDe gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven. Peildatum voor de gemeentelijke indeling is 1 januari 2023.\r\n\r\nGegevens beschikbaar van 2011 t/m 2022.\r\n\r\nStatus van de cijfers:\r\nDe cijfers in deze tabel voor 2011 t/m 2021 zijn definitief. De cijfers voor 2022 zijn voorlopig.\r\n\r\nWijzigingen per november 2024:\r\nGeen, deze tabel is stopgezet.\r\nDeze tabel wordt opgevolgd door de tabel 'Laag en langdurig laag inkomen; regio (indeling 2024)'. Zie paragraaf 3.\r\n\r\nWanneer komen er nieuwe cijfers?\r\nNiet meer van toepassing.\r\n\r\n",
+  "Modified": "2024-11-01T00:00:00+01:00",
+  "ReleaseDate": "2024-11-01T00:00:00+01:00",
+  "ModificationDate": "2023-11-08T00:00:00+01:00",
+  "Language": "nl",
+  "TemporalCoverage": "2011-2022",
+  "Authority": "https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "Catalog": "CBS",
+  "Publisher": "https://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "ContactPoint": "infoservice@cbs.nl",
+  "Version": "202411010000",
+  "VersionNotes": "",
+  "VersionReason": "Stopgezet",
+  "Frequency": "Stopgezet",
+  "Provenance": [
+    {
+      "Title": "Integraal inkomens- en vermogensonderzoek",
+      "Url": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/integraal-inkomens-en-vermogensonderzoek"
+    }
+  ],
+  "Status": "Gediscontinueerd",
+  "ObservationCount": 11924982,
+  "ObservationsModified": "2023-11-08T00:00:00+01:00",
+  "DatasetType": "Numeric",
+  "RelatedSources": [
+    {
+      "Title": "Inkomen van huishoudens; kenmerken, regio (indeling 2023)",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85711NED"
+    },
+    {
+      "Title": "Inkomen van personen; kenmerken, regio (indeling 2023)",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85712NED"
+    },
+    {
+      "Title": "Laag en langdurig laag inkomen; huishoudenskenmerken, regio (indeling 2024)",
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86006NED"
+    },
+    {
+      "Title": "Inkomen en bestedingen",
+      "Url": "https://www.cbs.nl/nl-nl/arbeid-en-inkomen/inkomen-en-bestedingen"
+    }
+  ],
+  "GraphTypes": "Table,Bar,Line,Map",
+  "MeasureGroups": [],
+  "Measures": [
+    {
+      "Identifier": "1050010_1",
+      "Index": 5,
+      "Title": "Particuliere huishoudens",
+      "Description": "Het aantal particuliere huishoudens, per 1 januari van het verslagjaar. Hierbij zijn studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gelaten.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "x 1 000",
+      "Decimals": 1,
+      "PresentationType": "Absolute"
+    },
+    {
+      "Identifier": "1050001_1",
+      "Index": 6,
+      "Title": "Personen",
+      "Description": "Het aantal personen woonachtig in particuliere huishoudens, per 1 januari van het verslagjaar. Hierbij zijn studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing gelaten.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "x 1 000",
+      "Decimals": 1,
+      "PresentationType": "Absolute"
+    },
+    {
+      "Identifier": "1016445_1",
+      "Index": 7,
+      "Title": "Minderjarige kinderen",
+      "Description": "Het aantal minderjarige kinderen (jonger dan 18 jaar) woonachtig in particuliere huishoudens, per 1 januari van het verslagjaar. Hierbij zijn studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing gelaten.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "x 1 000",
+      "Decimals": 1,
+      "PresentationType": "Absolute"
+    },
+    {
+      "Identifier": "1050010_2",
+      "Index": 8,
+      "Title": "Particuliere huishoudens relatief",
+      "Description": "Het percentage van particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Hierbij zijn studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing gelaten.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": "Relative"
+    },
+    {
+      "Identifier": "1050001_2",
+      "Index": 9,
+      "Title": "Personen relatief",
+      "Description": "Het percentage van personen woonachtig in particuliere huishoudens, per 1 januari van het verslagjaar. Hierbij zijn studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing gelaten.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": "Relative"
+    },
+    {
+      "Identifier": "1016445_2",
+      "Index": 10,
+      "Title": "Minderjarige kinderen relatief",
+      "Description": "Het percentage van minderjarige kinderen (jonger dan 18 jaar) woonachtig in particuliere huishoudens, per 1 januari van het verslagjaar. Hierbij zijn studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden buiten beschouwing gelaten.",
+      "MeasureGroupId": null,
+      "DataType": "Double",
+      "Unit": "%",
+      "Decimals": 1,
+      "PresentationType": "Relative"
+    }
+  ],
+  "Dimensions": [
+    {
+      "Identifier": "InkomensgrensHuishouden",
+      "Title": "Inkomensgrens huishouden",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": null,
+      "Kind": "Dimension",
+      "DimensionGroups": [],
+      "CodeList": [
+        {
+          "Identifier": "T001164",
+          "Index": 1,
+          "Title": "Totaal",
+          "Description": "",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "1050290",
+          "Index": 2,
+          "Title": "Inkomen tot lage-inkomensgrens",
+          "Description": "Huishoudens behoren tot de categorie \"Laag inkomen\" als het gestandaardiseerd besteedbaar huishoudensinkomen exclusief huurtoeslag lager is dan de lage-inkomensgrens.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A043009",
+          "Index": 3,
+          "Title": "Inkomen tot 101% sociaal minimum",
+          "Description": "Om te kunnen beoordelen hoe het besteedbaar inkomen van een huishouden zich verhoudt tot het sociale minimum, moet aan de hand van de\r\nregelgeving worden vastgesteld welke norm voor het desbetreffende huishouden van toepassing is. De norm voor een (echt)paar met uitsluitend\r\nminderjarige kinderen, bijvoorbeeld, is gelijkgesteld aan de bijstandsuitkering van een echtpaar, aangevuld met de (leeftijdsafhankelijke) Kinderbijslag. Bij 65-plussers is het bedrag aan AOW (uitkering in het kader van de algemene ouderdomswet) als norm gekozen.\r\nHet waargenomen inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate\r\naf van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar 101% van het sociaal minimum als inkomensgrens gehanteerd.\r\n",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A043010",
+          "Index": 4,
+          "Title": "Inkomen tot 105% sociaal minimum",
+          "Description": "Om te kunnen beoordelen hoe het besteedbaar inkomen van een huishouden zich verhoudt tot het sociale minimum, moet aan de hand van de\r\nregelgeving worden vastgesteld welke norm voor het desbetreffende huishouden van toepassing is. De norm voor een (echt)paar met uitsluitend\r\nminderjarige kinderen, bijvoorbeeld, is gelijkgesteld aan de bijstandsuitkering van een echtpaar, aangevuld met de (leeftijdsafhankelijke) Kinderbijslag. Bij 65-plussers is het bedrag aan AOW (uitkering in het kader van de algemene ouderdomswet) als norm gekozen.\r\nHet waargenomen inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate\r\naf van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar 105% van het sociaal minimum als inkomensgrens gehanteerd.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A043007",
+          "Index": 5,
+          "Title": "Inkomen tot 110% sociaal minimum",
+          "Description": "Om te kunnen beoordelen hoe het besteedbaar inkomen van een huishouden zich verhoudt tot het sociale minimum, moet aan de hand van de\r\nregelgeving worden vastgesteld welke norm voor het desbetreffende huishouden van toepassing is. De norm voor een (echt)paar met uitsluitend\r\nminderjarige kinderen, bijvoorbeeld, is gelijkgesteld aan de bijstandsuitkering van een echtpaar, aangevuld met de (leeftijdsafhankelijke) Kinderbijslag. Bij 65-plussers is het bedrag aan AOW (uitkering in het kader van de algemene ouderdomswet) als norm gekozen.\r\nHet waargenomen inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate\r\naf van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar 110% van het sociaal minimum als inkomensgrens gehanteerd.\r\n",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A043008",
+          "Index": 6,
+          "Title": "Inkomen tot 120% sociaal minimum",
+          "Description": "Om te kunnen beoordelen hoe het besteedbaar inkomen van een huishouden zich verhoudt tot het sociale minimum, moet aan de hand van de\r\nregelgeving worden vastgesteld welke norm voor het desbetreffende huishouden van toepassing is. De norm voor een (echt)paar met uitsluitend\r\nminderjarige kinderen, bijvoorbeeld, is gelijkgesteld aan de bijstandsuitkering van een echtpaar, aangevuld met de (leeftijdsafhankelijke) Kinderbijslag. Bij 65-plussers is het bedrag aan AOW (uitkering in het kader van de algemene ouderdomswet) als norm gekozen.\r\nHet waargenomen inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate\r\naf van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar 120% van het sociaal minimum als inkomensgrens gehanteerd.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A044103",
+          "Index": 7,
+          "Title": "Inkomen tot 130% sociaal minimum",
+          "Description": "Om te kunnen beoordelen hoe het besteedbaar inkomen van een huishouden zich verhoudt tot het sociale minimum, moet aan de hand van de\r\nregelgeving worden vastgesteld welke norm voor het desbetreffende huishouden van toepassing is. De norm voor een (echt)paar met uitsluitend\r\nminderjarige kinderen, bijvoorbeeld, is gelijkgesteld aan de bijstandsuitkering van een echtpaar, aangevuld met de (leeftijdsafhankelijke) Kinderbijslag. Bij 65-plussers is het bedrag aan AOW (uitkering in het kader van de algemene ouderdomswet) als norm gekozen.\r\nHet waargenomen inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate\r\naf van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar 130% van het sociaal minimum als inkomensgrens gehanteerd.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A044104",
+          "Index": 8,
+          "Title": "Inkomen tot 140% sociaal minimum",
+          "Description": "Om te kunnen beoordelen hoe het besteedbaar inkomen van een huishouden zich verhoudt tot het sociale minimum, moet aan de hand van de\r\nregelgeving worden vastgesteld welke norm voor het desbetreffende huishouden van toepassing is. De norm voor een (echt)paar met uitsluitend\r\nminderjarige kinderen, bijvoorbeeld, is gelijkgesteld aan de bijstandsuitkering van een echtpaar, aangevuld met de (leeftijdsafhankelijke) Kinderbijslag. Bij 65-plussers is het bedrag aan AOW (uitkering in het kader van de algemene ouderdomswet) als norm gekozen.\r\nHet waargenomen inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate\r\naf van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar 140% van het sociaal minimum als inkomensgrens gehanteerd.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A044105",
+          "Index": 9,
+          "Title": "Inkomen tot 150% sociaal minimum",
+          "Description": "Om te kunnen beoordelen hoe het besteedbaar inkomen van een huishouden zich verhoudt tot het sociale minimum, moet aan de hand van de\r\nregelgeving worden vastgesteld welke norm voor het desbetreffende huishouden van toepassing is. De norm voor een (echt)paar met uitsluitend\r\nminderjarige kinderen, bijvoorbeeld, is gelijkgesteld aan de bijstandsuitkering van een echtpaar, aangevuld met de (leeftijdsafhankelijke) Kinderbijslag. Bij 65-plussers is het bedrag aan AOW (uitkering in het kader van de algemene ouderdomswet) als norm gekozen.\r\nHet waargenomen inkomen van huishoudens die uitsluitend op een bijstandsuitkering zijn aangewezen, wijkt in veel gevallen in geringe mate\r\naf van de vastgestelde normbedragen. Zouden de normbedragen als inkomensgrens worden gehanteerd, dan valt een deel van deze huishoudens met hun inkomen net boven het sociale minimum. Daarom is niet 100%, maar 150% van het sociaal minimum als inkomensgrens gehanteerd.",
+          "DimensionGroupId": null
+        }
+      ]
+    },
+    {
+      "Identifier": "DuurInkomenspositie",
+      "Title": "Duur inkomenspositie",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": null,
+      "Kind": "Dimension",
+      "DimensionGroups": [],
+      "CodeList": [
+        {
+          "Identifier": "A028721",
+          "Index": 1,
+          "Title": "Ten minste 1 jaar",
+          "Description": "De duur geeft aan hoeveel opeenvolgende jaren personen of huishoudens tot de geselecteerde categorie met kans op armoede behoren.",
+          "DimensionGroupId": null
+        },
+        {
+          "Identifier": "A028724",
+          "Index": 2,
+          "Title": "Vier jaar of langer",
+          "Description": "De duur geeft aan hoeveel opeenvolgende jaren personen of huishoudens tot de geselecteerde categorie met kans op armoede behoren.",
+          "DimensionGroupId": null
+        }
+      ]
+    },
+    {
+      "Identifier": "KenmerkenVanHuishoudens",
+      "Title": "Kenmerken van huishoudens",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": null,
+      "Kind": "Dimension",
+      "DimensionGroups": [
+        {
+          "Id": "0",
+          "Index": 0,
+          "Title": "Kenmerken",
+          "Description": "",
+          "ParentId": null
+        },
+        {
+          "Id": "1",
+          "Index": 1,
+          "Title": "Totaal",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "2",
+          "Index": 2,
+          "Title": "Samenstelling huishouden",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "3",
+          "Index": 3,
+          "Title": "Hoofdkostwinner: leeftijd",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "4",
+          "Index": 4,
+          "Title": "Voornaamste inkomstenbron",
+          "Description": "",
+          "ParentId": "0"
+        },
+        {
+          "Id": "5",
+          "Index": 5,
+          "Title": "Woningbezit: huur-of koopwoning",
+          "Description": "",
+          "ParentId": "0"
+        }
+      ],
+      "CodeList": [
+        {
+          "Identifier": "1050010",
+          "Index": 1,
+          "Title": "Particuliere huishoudens",
+          "Description": "Eén of meer personen die samen een woonruimte bewonen en zichzelf, dus niet-bedrijfsmatig, voorzien in de dagelijkse levensbehoeften.",
+          "DimensionGroupId": "1"
+        },
+        {
+          "Identifier": "1050015",
+          "Index": 2,
+          "Title": "Type: Eenpersoonshuishouden",
+          "Description": "Particulier huishouden bestaande uit één persoon.\r\n\r\nTot eenpersoonshuishoudens, ook wel alleenstaanden genoemd, worden ook personen gerekend die met anderen op eenzelfde adres wonen maar een eigen huishouding voeren. Alleenstaanden worden in alle burgerlijke staten aangetroffen; zo kunnen gehuwden na het stuklopen van hun relatie (in afwachting van een scheiding) alleen wonen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1016010",
+          "Index": 3,
+          "Title": "Type: Meerpersoonshuishouden",
+          "Description": "Een particulier huishouden bestaande uit twee of meer personen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050190",
+          "Index": 4,
+          "Title": "Type: Eenoudergezin",
+          "Description": "Particulier huishouden bestaande uit één ouder met één of meer thuiswonende kinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050055",
+          "Index": 5,
+          "Title": "Type: Paar, totaal",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar met of zonder thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1017780",
+          "Index": 6,
+          "Title": "Type: Paar, zonder kind",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar zonder thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1016090",
+          "Index": 7,
+          "Title": "Type: Paar, met kind(eren)",
+          "Description": "Meerpersoonshuishouden bestaande uit een paar met (een) thuiswonend(e) kind(eren)\r\n\r\n\r\n\r\nMeerpersoonshuishouden:\r\n\r\nEen particulier huishouden bestaande uit twee of meer personen.\r\n\r\n\r\n\r\nPaar:\r\n\r\nTwee op basis van huwelijk, partnerschapsregistratie of samenwoonrelatie bij elkaar behorende personen.\r\n\r\n\r\n\r\nThuiswonend kind:\r\n\r\nPersoon ongeacht leeftijd of burgerlijke staat die een kind-ouder relatie heeft met één of twee tot het huishouden behorende ouders.\r\n\r\nOnder thuiswonende kinderen worden ook begrepen adoptie- en stiefkinderen maar geen pleegkinderen.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "1050220",
+          "Index": 8,
+          "Title": "Type: Meerpersoonshuishouden, overig",
+          "Description": "Particulier huishouden waarvan nog andere personen dan de hoofdkostwinner of referentiepersoon en zijn/haar eventuele partner en/of inwonende kinderen deel uitmaken. Het gaat hier bijvoorbeeld om huishoudens met inwonende verwanten.",
+          "DimensionGroupId": "2"
+        },
+        {
+          "Identifier": "A025340",
+          "Index": 9,
+          "Title": "Hoofdkostwinner: tot 25 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "3"
+        },
+        {
+          "Identifier": "A025343",
+          "Index": 10,
+          "Title": "Hoofdkostwinner: 25 tot 45 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "3"
+        },
+        {
+          "Identifier": "A025351",
+          "Index": 11,
+          "Title": "Hoofdkostwinner: 45 tot 65 jaar",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "3"
+        },
+        {
+          "Identifier": "A025359",
+          "Index": 12,
+          "Title": "Hoofdkostwinner: 65 jaar of ouder",
+          "Description": "De hoofdkostwinner is de persoon in het huishouden met de belangrijkste sociaaleconomische positie.",
+          "DimensionGroupId": "3"
+        },
+        {
+          "Identifier": "1013395",
+          "Index": 13,
+          "Title": "Bron: Inkomen als werknemer/zelfstandige",
+          "Description": "Huishoudens waarvoor het loon van werknemer of het inkomen als zelfstandige de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013400",
+          "Index": 14,
+          "Title": "Bron: Inkomen als werknemer",
+          "Description": "Huishoudens waarvoor het loon van werknemer de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013601",
+          "Index": 15,
+          "Title": "Bron: Inkomen als zelfstandige (totaal)",
+          "Description": "Huishoudens waarvoor het inkomen als zelfstandig ondernemer, directeur-grootaandeelhouder en overig zelfstandige de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013650",
+          "Index": 16,
+          "Title": "Bron: Overdrachtsinkomen",
+          "Description": "Huishoudens waarvoor een uitkering, pensioen of studiefinanciering de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013700",
+          "Index": 17,
+          "Title": "Bron: Uitkering inkomensverzekering",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens werkloosheid, ziekte, arbeidsongeschiktheid en pensioen de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013750",
+          "Index": 18,
+          "Title": "Bron: Uitkering werkloosheid",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens werkloosheid de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013800",
+          "Index": 19,
+          "Title": "Bron: Uitkering arbeidsongeschiktheid",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens ziekte of arbeidsongeschiktheid de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013850",
+          "Index": 20,
+          "Title": "Bron: Uitkering pensioen",
+          "Description": "Huishoudens waarvoor een uitkering inkomensverzekering wegens pensioen of inkomen uit vermogen de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1013900",
+          "Index": 21,
+          "Title": "Bron: Uitkering sociale voorziening",
+          "Description": "Huishoudens waarvoor een uitkering sociale voorziening (bijstand en overige uitkering sociale voorziening) de voornaamste inkomensbron vormt.",
+          "DimensionGroupId": "4"
+        },
+        {
+          "Identifier": "1014800",
+          "Index": 22,
+          "Title": "Woningbezit: eigen woning",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.\r\n",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "1014850",
+          "Index": 23,
+          "Title": "Woningbezit: huurwoning",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.\r\n",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "1014950",
+          "Index": 24,
+          "Title": "Woningbezit: huurwoning geen huurtoeslag",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.\r\n",
+          "DimensionGroupId": "5"
+        },
+        {
+          "Identifier": "1014900",
+          "Index": 25,
+          "Title": "Woningbezit: huurwoning met huurtoeslag",
+          "Description": "Een huishouden woont in een eigen woning of in een gehuurde woning. Van de huishoudens die een woning huren, is bepaald of zij wel of geen huurtoeslag ontvangen hebben.\r\n",
+          "DimensionGroupId": "5"
+        }
+      ]
+    },
+    {
+      "Identifier": "RegioS",
+      "Title": "Regio’s",
+      "Description": "",
+      "MapYear": "2023",
+      "ReleasePolicy": null,
+      "Kind": "GeoDimension",
+      "DimensionGroups": [
+        {
+          "Id": "NL",
+          "Index": 0,
+          "Title": "Nederland",
+          "Description": null,
+          "ParentId": null
+        },
+        {
+          "Id": "LD",
+          "Index": 1,
+          "Title": "Landsdelen",
+          "Description": null,
+          "ParentId": null
+        },
+        {
+          "Id": "PV",
+          "Index": 2,
+          "Title": "Provincies",
+          "Description": null,
+          "ParentId": null
+        },
+        {
+          "Id": "CRPV",
+          "Index": 3,
+          "Title": "COROP gebieden per provincie",
+          "Description": null,
+          "ParentId": null
+        },
+        {
+          "Id": "CRPV20",
+          "Index": 4,
+          "Title": "Groningen (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV21",
+          "Index": 5,
+          "Title": "Fryslân (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV22",
+          "Index": 6,
+          "Title": "Drenthe (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV23",
+          "Index": 7,
+          "Title": "Overijssel (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV24",
+          "Index": 8,
+          "Title": "Flevoland (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV25",
+          "Index": 9,
+          "Title": "Gelderland (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV26",
+          "Index": 10,
+          "Title": "Utrecht (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV27",
+          "Index": 11,
+          "Title": "Noord-Holland (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV28",
+          "Index": 12,
+          "Title": "Zuid-Holland (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV29",
+          "Index": 13,
+          "Title": "Zeeland (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV30",
+          "Index": 14,
+          "Title": "Noord-Brabant (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "CRPV31",
+          "Index": 15,
+          "Title": "Limburg (PV)",
+          "Description": null,
+          "ParentId": "CRPV"
+        },
+        {
+          "Id": "GMPV",
+          "Index": 16,
+          "Title": "Gemeenten per provincie",
+          "Description": null,
+          "ParentId": null
+        },
+        {
+          "Id": "GMPV20",
+          "Index": 17,
+          "Title": "Groningen (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV21",
+          "Index": 18,
+          "Title": "Fryslân (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV22",
+          "Index": 19,
+          "Title": "Drenthe (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV23",
+          "Index": 20,
+          "Title": "Overijssel (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV24",
+          "Index": 21,
+          "Title": "Flevoland (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV25",
+          "Index": 22,
+          "Title": "Gelderland (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV26",
+          "Index": 23,
+          "Title": "Utrecht (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV27",
+          "Index": 24,
+          "Title": "Noord-Holland (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV28",
+          "Index": 25,
+          "Title": "Zuid-Holland (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV29",
+          "Index": 26,
+          "Title": "Zeeland (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV30",
+          "Index": 27,
+          "Title": "Noord-Brabant (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "GMPV31",
+          "Index": 28,
+          "Title": "Limburg (PV)",
+          "Description": null,
+          "ParentId": "GMPV"
+        },
+        {
+          "Id": "AM",
+          "Index": 29,
+          "Title": "Arbeidsmarktregio’s",
+          "Description": null,
+          "ParentId": null
+        }
+      ],
+      "CodeList": [
+        {
+          "Identifier": "NL01",
+          "Index": 1,
+          "Title": "Nederland",
+          "Description": "",
+          "DimensionGroupId": "NL"
+        },
+        {
+          "Identifier": "LD01",
+          "Index": 2,
+          "Title": "Noord-Nederland (LD)",
+          "Description": "LD = Landsdeel\r\n\r\nNoord-Nederland: Groningen, Fryslân, Drenthe\r\n\r\nRegionale groepering van provincies. Nederland telt 4 landsdelen.",
+          "DimensionGroupId": "LD"
+        },
+        {
+          "Identifier": "LD02",
+          "Index": 3,
+          "Title": "Oost-Nederland (LD)",
+          "Description": "LD = Landsdeel\r\n\r\nOost-Nederland: Overijssel, Flevoland, Gelderland\r\n\r\nRegionale groepering van provincies. Nederland telt 4 landsdelen.",
+          "DimensionGroupId": "LD"
+        },
+        {
+          "Identifier": "LD03",
+          "Index": 4,
+          "Title": "West-Nederland (LD)",
+          "Description": "LD = Landsdeel\r\n\r\nWest-Nederland: Utrecht, Noord-Holland, Zuid-Holland, Zeeland\r\n\r\nRegionale groepering van provincies. Nederland telt 4 landsdelen.",
+          "DimensionGroupId": "LD"
+        },
+        {
+          "Identifier": "LD04",
+          "Index": 5,
+          "Title": "Zuid-Nederland (LD)",
+          "Description": "LD = Landsdeel\r\n\r\nZuid-Nederland: Noord-Brabant, Limburg\r\n\r\nRegionale groepering van provincies. Nederland telt 4 landsdelen.",
+          "DimensionGroupId": "LD"
+        },
+        {
+          "Identifier": "PV20",
+          "Index": 6,
+          "Title": "Groningen (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV21",
+          "Index": 7,
+          "Title": "Fryslân (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV22",
+          "Index": 8,
+          "Title": "Drenthe (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV23",
+          "Index": 9,
+          "Title": "Overijssel (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV24",
+          "Index": 10,
+          "Title": "Flevoland (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV25",
+          "Index": 11,
+          "Title": "Gelderland (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV26",
+          "Index": 12,
+          "Title": "Utrecht (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV27",
+          "Index": 13,
+          "Title": "Noord-Holland (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV28",
+          "Index": 14,
+          "Title": "Zuid-Holland (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV29",
+          "Index": 15,
+          "Title": "Zeeland (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV30",
+          "Index": 16,
+          "Title": "Noord-Brabant (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "PV31",
+          "Index": 17,
+          "Title": "Limburg (PV)",
+          "Description": "PV = Provincie\r\n\r\nBestuurlijke onderverdeling van het Nederlands grondgebied. Sinds het instellen van de provincie Flevoland per 1 januari 1986 telt Nederland 12 provincies.",
+          "DimensionGroupId": "PV"
+        },
+        {
+          "Identifier": "CR01",
+          "Index": 18,
+          "Title": "Oost-Groningen (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV20"
+        },
+        {
+          "Identifier": "CR02",
+          "Index": 19,
+          "Title": "Delfzijl en omgeving (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV20"
+        },
+        {
+          "Identifier": "CR03",
+          "Index": 20,
+          "Title": "Overig Groningen (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV20"
+        },
+        {
+          "Identifier": "CR04",
+          "Index": 21,
+          "Title": "Noord-Friesland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV21"
+        },
+        {
+          "Identifier": "CR05",
+          "Index": 22,
+          "Title": "Zuidwest-Friesland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV21"
+        },
+        {
+          "Identifier": "CR06",
+          "Index": 23,
+          "Title": "Zuidoost-Friesland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV21"
+        },
+        {
+          "Identifier": "CR07",
+          "Index": 24,
+          "Title": "Noord-Drenthe (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV22"
+        },
+        {
+          "Identifier": "CR08",
+          "Index": 25,
+          "Title": "Zuidoost-Drenthe (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV22"
+        },
+        {
+          "Identifier": "CR09",
+          "Index": 26,
+          "Title": "Zuidwest-Drenthe (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV22"
+        },
+        {
+          "Identifier": "CR10",
+          "Index": 27,
+          "Title": "Noord-Overijssel (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV23"
+        },
+        {
+          "Identifier": "CR11",
+          "Index": 28,
+          "Title": "Zuidwest-Overijssel (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV23"
+        },
+        {
+          "Identifier": "CR12",
+          "Index": 29,
+          "Title": "Twente (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV23"
+        },
+        {
+          "Identifier": "CR13",
+          "Index": 30,
+          "Title": "Veluwe (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV25"
+        },
+        {
+          "Identifier": "CR14",
+          "Index": 31,
+          "Title": "Achterhoek (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV25"
+        },
+        {
+          "Identifier": "CR15",
+          "Index": 32,
+          "Title": "Arnhem/Nijmegen (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV25"
+        },
+        {
+          "Identifier": "CR16",
+          "Index": 33,
+          "Title": "Zuidwest-Gelderland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV25"
+        },
+        {
+          "Identifier": "CR17",
+          "Index": 34,
+          "Title": "Utrecht (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV26"
+        },
+        {
+          "Identifier": "CR18",
+          "Index": 35,
+          "Title": "Kop van Noord-Holland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV27"
+        },
+        {
+          "Identifier": "CR19",
+          "Index": 36,
+          "Title": "Alkmaar en omgeving (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV27"
+        },
+        {
+          "Identifier": "CR20",
+          "Index": 37,
+          "Title": "IJmond (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV27"
+        },
+        {
+          "Identifier": "CR21",
+          "Index": 38,
+          "Title": "Agglomeratie Haarlem (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV27"
+        },
+        {
+          "Identifier": "CR22",
+          "Index": 39,
+          "Title": "Zaanstreek (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV27"
+        },
+        {
+          "Identifier": "CR23",
+          "Index": 40,
+          "Title": "Groot-Amsterdam (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV27"
+        },
+        {
+          "Identifier": "CR24",
+          "Index": 41,
+          "Title": "Het Gooi en Vechtstreek (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV27"
+        },
+        {
+          "Identifier": "CR25",
+          "Index": 42,
+          "Title": "Agglomeratie Leiden en Bollenstreek (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV28"
+        },
+        {
+          "Identifier": "CR26",
+          "Index": 43,
+          "Title": "Agglomeratie 's-Gravenhage (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV28"
+        },
+        {
+          "Identifier": "CR27",
+          "Index": 44,
+          "Title": "Delft en Westland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV28"
+        },
+        {
+          "Identifier": "CR28",
+          "Index": 45,
+          "Title": "Oost-Zuid-Holland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV28"
+        },
+        {
+          "Identifier": "CR29",
+          "Index": 46,
+          "Title": "Groot-Rijnmond (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV28"
+        },
+        {
+          "Identifier": "CR30",
+          "Index": 47,
+          "Title": "Zuidoost-Zuid-Holland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV28"
+        },
+        {
+          "Identifier": "CR31",
+          "Index": 48,
+          "Title": "Zeeuwsch-Vlaanderen (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV29"
+        },
+        {
+          "Identifier": "CR32",
+          "Index": 49,
+          "Title": "Overig Zeeland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV29"
+        },
+        {
+          "Identifier": "CR33",
+          "Index": 50,
+          "Title": "West-Noord-Brabant (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV30"
+        },
+        {
+          "Identifier": "CR34",
+          "Index": 51,
+          "Title": "Midden-Noord-Brabant (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV30"
+        },
+        {
+          "Identifier": "CR35",
+          "Index": 52,
+          "Title": "Noordoost-Noord-Brabant (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV30"
+        },
+        {
+          "Identifier": "CR36",
+          "Index": 53,
+          "Title": "Zuidoost-Noord-Brabant (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV30"
+        },
+        {
+          "Identifier": "CR37",
+          "Index": 54,
+          "Title": "Noord-Limburg (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV31"
+        },
+        {
+          "Identifier": "CR38",
+          "Index": 55,
+          "Title": "Midden-Limburg (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV31"
+        },
+        {
+          "Identifier": "CR39",
+          "Index": 56,
+          "Title": "Zuid-Limburg (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV31"
+        },
+        {
+          "Identifier": "CR40",
+          "Index": 57,
+          "Title": "Flevoland (CR)",
+          "Description": "CR = COROP-gebied\r\n\r\nRegionaal niveau tussen gemeenten en provincies in. In 1970 ontworpen door de Coördinatie Commissie Regionaal Onderzoeksprogramma, waaraan de indeling haar naam dankt. Nederland telt 40 COROP-gebieden.",
+          "DimensionGroupId": "CRPV24"
+        },
+        {
+          "Identifier": "GM1680",
+          "Index": 58,
+          "Title": "Aa en Hunze",
+          "Description": "Ontstaan per 01-01-1998",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0358",
+          "Index": 59,
+          "Title": "Aalsmeer",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0197",
+          "Index": 60,
+          "Title": "Aalten",
+          "Description": "Gemeentelijke herindeling per 01-01-2005\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0059",
+          "Index": 61,
+          "Title": "Achtkarspelen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0482",
+          "Index": 62,
+          "Title": "Alblasserdam",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0613",
+          "Index": 63,
+          "Title": "Albrandswaard",
+          "Description": "Ontstaan per 01-01-1985",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0361",
+          "Index": 64,
+          "Title": "Alkmaar",
+          "Description": "Gemeentelijke herindeling per 01-01-2015\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0141",
+          "Index": 65,
+          "Title": "Almelo",
+          "Description": "Begindatum 01-12-1913",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0034",
+          "Index": 66,
+          "Title": "Almere",
+          "Description": "Ontstaan per 01-01-1984",
+          "DimensionGroupId": "GMPV24"
+        },
+        {
+          "Identifier": "GM0484",
+          "Index": 67,
+          "Title": "Alphen aan den Rijn",
+          "Description": "Gemeentelijke herindeling per 01-01-2014\r\nNaamswijziging per 01-01-1918",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1723",
+          "Index": 68,
+          "Title": "Alphen-Chaam",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1959",
+          "Index": 69,
+          "Title": "Altena",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0060",
+          "Index": 70,
+          "Title": "Ameland",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0307",
+          "Index": 71,
+          "Title": "Amersfoort",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0362",
+          "Index": 72,
+          "Title": "Amstelveen",
+          "Description": "Naamswijziging per 01-01-1964",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0363",
+          "Index": 73,
+          "Title": "Amsterdam",
+          "Description": "Gemeentelijke herindeling per 24-03-2022\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0200",
+          "Index": 74,
+          "Title": "Apeldoorn",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0202",
+          "Index": 75,
+          "Title": "Arnhem",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0106",
+          "Index": 76,
+          "Title": "Assen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0743",
+          "Index": 77,
+          "Title": "Asten",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0744",
+          "Index": 78,
+          "Title": "Baarle-Nassau",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0308",
+          "Index": 79,
+          "Title": "Baarn",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0489",
+          "Index": 80,
+          "Title": "Barendrecht",
+          "Description": "Naamswijziging per 10-12-1886",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0203",
+          "Index": 81,
+          "Title": "Barneveld",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0888",
+          "Index": 82,
+          "Title": "Beek (L.)",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1954",
+          "Index": 83,
+          "Title": "Beekdaelen",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0889",
+          "Index": 84,
+          "Title": "Beesel",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1945",
+          "Index": 85,
+          "Title": "Berg en Dal",
+          "Description": "Naamswijziging per 01-01-2016",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1724",
+          "Index": 86,
+          "Title": "Bergeijk",
+          "Description": "Naamswijziging per 25-09-1998",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0893",
+          "Index": 87,
+          "Title": "Bergen (L.)",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0373",
+          "Index": 88,
+          "Title": "Bergen (NH.)",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0748",
+          "Index": 89,
+          "Title": "Bergen op Zoom",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1859",
+          "Index": 90,
+          "Title": "Berkelland",
+          "Description": "Ontstaan per 01-01-2005",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1721",
+          "Index": 91,
+          "Title": "Bernheze",
+          "Description": "Naamswijziging per 28-01-1995",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0753",
+          "Index": 92,
+          "Title": "Best",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0209",
+          "Index": 93,
+          "Title": "Beuningen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0375",
+          "Index": 94,
+          "Title": "Beverwijk",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0310",
+          "Index": 95,
+          "Title": "De Bilt",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1728",
+          "Index": 96,
+          "Title": "Bladel",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0376",
+          "Index": 97,
+          "Title": "Blaricum",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0377",
+          "Index": 98,
+          "Title": "Bloemendaal",
+          "Description": "Gemeentelijke herindeling per 01-01-2009\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1901",
+          "Index": 99,
+          "Title": "Bodegraven-Reeuwijk",
+          "Description": "Ontstaan per 01-01-2011",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0755",
+          "Index": 100,
+          "Title": "Boekel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1681",
+          "Index": 101,
+          "Title": "Borger-Odoorn",
+          "Description": "Ontstaan per 01-01-1998",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0147",
+          "Index": 102,
+          "Title": "Borne",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0654",
+          "Index": 103,
+          "Title": "Borsele",
+          "Description": "Naamswijziging per 01-01-1970",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0757",
+          "Index": 104,
+          "Title": "Boxtel",
+          "Description": "Gemeentelijke herindeling per 01-01-2021\r\nGemeentelijke herindeling per 01-01-1996\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0758",
+          "Index": 105,
+          "Title": "Breda",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1876",
+          "Index": 106,
+          "Title": "Bronckhorst",
+          "Description": "Ontstaan per 01-01-2005",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0213",
+          "Index": 107,
+          "Title": "Brummen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0899",
+          "Index": 108,
+          "Title": "Brunssum",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0312",
+          "Index": 109,
+          "Title": "Bunnik",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0313",
+          "Index": 110,
+          "Title": "Bunschoten",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0214",
+          "Index": 111,
+          "Title": "Buren",
+          "Description": "Gemeentelijke herindeling per 01-01-1999\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0502",
+          "Index": 112,
+          "Title": "Capelle aan den IJssel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0383",
+          "Index": 113,
+          "Title": "Castricum",
+          "Description": "Gemeentelijke herindeling per 01-01-2002\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0109",
+          "Index": 114,
+          "Title": "Coevorden",
+          "Description": "Gemeentelijke herindeling per 01-01-1998\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM1706",
+          "Index": 115,
+          "Title": "Cranendonck",
+          "Description": "Naamswijziging per 28-01-1998",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0216",
+          "Index": 116,
+          "Title": "Culemborg",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0148",
+          "Index": 117,
+          "Title": "Dalfsen",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM1891",
+          "Index": 118,
+          "Title": "Dantumadiel",
+          "Description": "Naamswijziging per 01-01-2009",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0503",
+          "Index": 119,
+          "Title": "Delft",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0762",
+          "Index": 120,
+          "Title": "Deurne",
+          "Description": "Naamswijziging per 01-01-1926",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0150",
+          "Index": 121,
+          "Title": "Deventer",
+          "Description": "Gemeentelijke herindeling per 01-01-2005\r\nGemeentelijke herindeling per 01-01-1999\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0384",
+          "Index": 122,
+          "Title": "Diemen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1980",
+          "Index": 123,
+          "Title": "Dijk en Waard",
+          "Description": "Ontstaan per 01-01-2022",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1774",
+          "Index": 124,
+          "Title": "Dinkelland",
+          "Description": "Naamswijziging per 01-06-2002",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0221",
+          "Index": 125,
+          "Title": "Doesburg",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0222",
+          "Index": 126,
+          "Title": "Doetinchem",
+          "Description": "Gemeentelijke herindeling per 01-01-2005\r\nBegindatum 01-01-1920",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0766",
+          "Index": 127,
+          "Title": "Dongen",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0505",
+          "Index": 128,
+          "Title": "Dordrecht",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0498",
+          "Index": 129,
+          "Title": "Drechterland",
+          "Description": "Gemeentelijke herindeling per 01-01-2006\r\nNaamswijziging per 01-01-1980",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1719",
+          "Index": 130,
+          "Title": "Drimmelen",
+          "Description": "Naamswijziging per 25-04-1998",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0303",
+          "Index": 131,
+          "Title": "Dronten",
+          "Description": "Ontstaan per 01-01-1972",
+          "DimensionGroupId": "GMPV24"
+        },
+        {
+          "Identifier": "GM0225",
+          "Index": 132,
+          "Title": "Druten",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0226",
+          "Index": 133,
+          "Title": "Duiven",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1711",
+          "Index": 134,
+          "Title": "Echt-Susteren",
+          "Description": "Ontstaan per 01-01-2003",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0385",
+          "Index": 135,
+          "Title": "Edam-Volendam",
+          "Description": "Gemeentelijke herindeling per 01-01-2016\r\nNaamswijziging per 01-01-1975",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0228",
+          "Index": 136,
+          "Title": "Ede",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0317",
+          "Index": 137,
+          "Title": "Eemnes",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1979",
+          "Index": 138,
+          "Title": "Eemsdelta",
+          "Description": "Ontstaan per 01-01-2021",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM0770",
+          "Index": 139,
+          "Title": "Eersel",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1903",
+          "Index": 140,
+          "Title": "Eijsden-Margraten",
+          "Description": "Ontstaan per 01-01-2011",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0772",
+          "Index": 141,
+          "Title": "Eindhoven",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0230",
+          "Index": 142,
+          "Title": "Elburg",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0114",
+          "Index": 143,
+          "Title": "Emmen",
+          "Description": "Gemeentelijke herindeling per 01-01-1998\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0388",
+          "Index": 144,
+          "Title": "Enkhuizen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0153",
+          "Index": 145,
+          "Title": "Enschede",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0232",
+          "Index": 146,
+          "Title": "Epe",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0233",
+          "Index": 147,
+          "Title": "Ermelo",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0777",
+          "Index": 148,
+          "Title": "Etten-Leur",
+          "Description": "Naamswijziging per 01-01-1968",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1940",
+          "Index": 149,
+          "Title": "De Fryske Marren",
+          "Description": "Naamswijziging per 01-07-2015",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0779",
+          "Index": 150,
+          "Title": "Geertruidenberg",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1771",
+          "Index": 151,
+          "Title": "Geldrop-Mierlo",
+          "Description": "Ontstaan per 01-01-2004",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1652",
+          "Index": 152,
+          "Title": "Gemert-Bakel",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0907",
+          "Index": 153,
+          "Title": "Gennep",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0784",
+          "Index": 154,
+          "Title": "Gilze en Rijen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1924",
+          "Index": 155,
+          "Title": "Goeree-Overflakkee",
+          "Description": "Ontstaan per 01-01-2013",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0664",
+          "Index": 156,
+          "Title": "Goes",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0785",
+          "Index": 157,
+          "Title": "Goirle",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1942",
+          "Index": 158,
+          "Title": "Gooise Meren",
+          "Description": "Ontstaan per 01-01-2016",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0512",
+          "Index": 159,
+          "Title": "Gorinchem",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0513",
+          "Index": 160,
+          "Title": "Gouda",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0518",
+          "Index": 161,
+          "Title": "'s-Gravenhage (gemeente)",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0014",
+          "Index": 162,
+          "Title": "Groningen (gemeente)",
+          "Description": "Gemeentelijke herindeling per 01-01-2019\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM1729",
+          "Index": 163,
+          "Title": "Gulpen-Wittem",
+          "Description": "Ontstaan per 01-01-1999",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0158",
+          "Index": 164,
+          "Title": "Haaksbergen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0392",
+          "Index": 165,
+          "Title": "Haarlem",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0394",
+          "Index": 166,
+          "Title": "Haarlemmermeer",
+          "Description": "Gemeentelijke herindeling per 01-01-2019\r\nBegindatum 16-11-1855",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1655",
+          "Index": 167,
+          "Title": "Halderberge",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0160",
+          "Index": 168,
+          "Title": "Hardenberg",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nOntstaan per 01-05-1941",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0243",
+          "Index": 169,
+          "Title": "Harderwijk",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0523",
+          "Index": 170,
+          "Title": "Hardinxveld-Giessendam",
+          "Description": "Ontstaan per 01-01-1957",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0072",
+          "Index": 171,
+          "Title": "Harlingen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0244",
+          "Index": 172,
+          "Title": "Hattem",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0396",
+          "Index": 173,
+          "Title": "Heemskerk",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0397",
+          "Index": 174,
+          "Title": "Heemstede",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0246",
+          "Index": 175,
+          "Title": "Heerde",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0074",
+          "Index": 176,
+          "Title": "Heerenveen",
+          "Description": "Gemeentelijke herindeling per 01-01-2014\r\nBegindatum 01-07-1934",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0917",
+          "Index": 177,
+          "Title": "Heerlen",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1658",
+          "Index": 178,
+          "Title": "Heeze-Leende",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0399",
+          "Index": 179,
+          "Title": "Heiloo",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0400",
+          "Index": 180,
+          "Title": "Den Helder",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0163",
+          "Index": 181,
+          "Title": "Hellendoorn",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0794",
+          "Index": 182,
+          "Title": "Helmond",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0531",
+          "Index": 183,
+          "Title": "Hendrik-Ido-Ambacht",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0164",
+          "Index": 184,
+          "Title": "Hengelo (O.)",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0796",
+          "Index": 185,
+          "Title": "'s-Hertogenbosch",
+          "Description": "Gemeentelijke herindeling per 01-01-2015\r\nGemeentelijke herindeling per 01-01-1996\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0252",
+          "Index": 186,
+          "Title": "Heumen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0797",
+          "Index": 187,
+          "Title": "Heusden",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0534",
+          "Index": 188,
+          "Title": "Hillegom",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0798",
+          "Index": 189,
+          "Title": "Hilvarenbeek",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0402",
+          "Index": 190,
+          "Title": "Hilversum",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1963",
+          "Index": 191,
+          "Title": "Hoeksche Waard",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1735",
+          "Index": 192,
+          "Title": "Hof van Twente",
+          "Description": "Ontstaan per 01-01-2001",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM1966",
+          "Index": 193,
+          "Title": "Het Hogeland",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM1911",
+          "Index": 194,
+          "Title": "Hollands Kroon",
+          "Description": "Ontstaan per 01-01-2012",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0118",
+          "Index": 195,
+          "Title": "Hoogeveen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0405",
+          "Index": 196,
+          "Title": "Hoorn",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1507",
+          "Index": 197,
+          "Title": "Horst aan de Maas",
+          "Description": "Gemeentelijke herindeling per 01-01-2010\r\nOntstaan per 01-01-2001",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0321",
+          "Index": 198,
+          "Title": "Houten",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0406",
+          "Index": 199,
+          "Title": "Huizen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0677",
+          "Index": 200,
+          "Title": "Hulst",
+          "Description": "Gemeentelijke herindeling per 01-01-2003\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0353",
+          "Index": 201,
+          "Title": "IJsselstein",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1884",
+          "Index": 202,
+          "Title": "Kaag en Braassem",
+          "Description": "Ontstaan per 01-01-2009",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0166",
+          "Index": 203,
+          "Title": "Kampen",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0678",
+          "Index": 204,
+          "Title": "Kapelle",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0537",
+          "Index": 205,
+          "Title": "Katwijk",
+          "Description": "Gemeentelijke herindeling per 01-01-2006\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0928",
+          "Index": 206,
+          "Title": "Kerkrade",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1598",
+          "Index": 207,
+          "Title": "Koggenland",
+          "Description": "Ontstaan per 01-01-2007",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0542",
+          "Index": 208,
+          "Title": "Krimpen aan den IJssel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1931",
+          "Index": 209,
+          "Title": "Krimpenerwaard",
+          "Description": "Ontstaan per 01-01-2015",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1659",
+          "Index": 210,
+          "Title": "Laarbeek",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1982",
+          "Index": 211,
+          "Title": "Land van Cuijk",
+          "Description": "Ontstaan per 01-01-2022",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0882",
+          "Index": 212,
+          "Title": "Landgraaf",
+          "Description": "Ontstaan per 01-01-1982",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0415",
+          "Index": 213,
+          "Title": "Landsmeer",
+          "Description": "Gemeentelijke herindeling per 01-01-1991\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1621",
+          "Index": 214,
+          "Title": "Lansingerland",
+          "Description": "Ontstaan per 01-01-2007",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0417",
+          "Index": 215,
+          "Title": "Laren (NH.)",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0080",
+          "Index": 216,
+          "Title": "Leeuwarden",
+          "Description": "Gemeentelijke herindeling per 01-01-2018\r\nGemeentelijke herindeling per 01-01-2014\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0546",
+          "Index": 217,
+          "Title": "Leiden",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0547",
+          "Index": 218,
+          "Title": "Leiderdorp",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1916",
+          "Index": 219,
+          "Title": "Leidschendam-Voorburg",
+          "Description": "Ontstaan per 01-01-2002",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0995",
+          "Index": 220,
+          "Title": "Lelystad",
+          "Description": "Ontstaan per 01-01-1980",
+          "DimensionGroupId": "GMPV24"
+        },
+        {
+          "Identifier": "GM1640",
+          "Index": 221,
+          "Title": "Leudal",
+          "Description": "Ontstaan per 01-01-2007",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0327",
+          "Index": 222,
+          "Title": "Leusden",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1705",
+          "Index": 223,
+          "Title": "Lingewaard",
+          "Description": "Naamswijziging per 01-01-2003",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0553",
+          "Index": 224,
+          "Title": "Lisse",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0262",
+          "Index": 225,
+          "Title": "Lochem",
+          "Description": "Gemeentelijke herindeling per 01-01-2005\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0809",
+          "Index": 226,
+          "Title": "Loon op Zand",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0331",
+          "Index": 227,
+          "Title": "Lopik",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0168",
+          "Index": 228,
+          "Title": "Losser",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0263",
+          "Index": 229,
+          "Title": "Maasdriel",
+          "Description": "Gemeentelijke herindeling per 01-01-1999\r\nNaamswijziging per 01-08-1944",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1641",
+          "Index": 230,
+          "Title": "Maasgouw",
+          "Description": "Ontstaan per 01-01-2007",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1991",
+          "Index": 231,
+          "Title": "Maashorst",
+          "Description": "Ontstaan per 01-01-2022",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0556",
+          "Index": 232,
+          "Title": "Maassluis",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0935",
+          "Index": 233,
+          "Title": "Maastricht",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0420",
+          "Index": 234,
+          "Title": "Medemblik",
+          "Description": "Gemeentelijke herindeling per 01-01-2011\r\nGemeentelijke herindeling per 01-01-2007\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0938",
+          "Index": 235,
+          "Title": "Meerssen",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1948",
+          "Index": 236,
+          "Title": "Meierijstad",
+          "Description": "Ontstaan per 01-01-2017",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0119",
+          "Index": 237,
+          "Title": "Meppel",
+          "Description": "Gemeentelijke herindeling per 01-01-1998\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0687",
+          "Index": 238,
+          "Title": "Middelburg (Z.)",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM1842",
+          "Index": 239,
+          "Title": "Midden-Delfland",
+          "Description": "Ontstaan per 01-01-2004",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1731",
+          "Index": 240,
+          "Title": "Midden-Drenthe",
+          "Description": "Naamswijziging per 01-01-2000",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM1952",
+          "Index": 241,
+          "Title": "Midden-Groningen",
+          "Description": "Ontstaan per 01-01-2018",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM1709",
+          "Index": 242,
+          "Title": "Moerdijk",
+          "Description": "Naamswijziging per 04-04-1998",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1978",
+          "Index": 243,
+          "Title": "Molenlanden",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1955",
+          "Index": 244,
+          "Title": "Montferland",
+          "Description": "Ontstaan per 01-01-2005",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0335",
+          "Index": 245,
+          "Title": "Montfoort",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0944",
+          "Index": 246,
+          "Title": "Mook en Middelaar",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1740",
+          "Index": 247,
+          "Title": "Neder-Betuwe",
+          "Description": "Naamswijziging per 01-04-2003",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0946",
+          "Index": 248,
+          "Title": "Nederweert",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0356",
+          "Index": 249,
+          "Title": "Nieuwegein",
+          "Description": "Ontstaan per 01-07-1971",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0569",
+          "Index": 250,
+          "Title": "Nieuwkoop",
+          "Description": "Gemeentelijke herindeling per 01-01-2007\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0267",
+          "Index": 251,
+          "Title": "Nijkerk",
+          "Description": "Gemeentelijke herindeling per 01-01-2000\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0268",
+          "Index": 252,
+          "Title": "Nijmegen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1930",
+          "Index": 253,
+          "Title": "Nissewaard",
+          "Description": "Ontstaan per 01-01-2015",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1970",
+          "Index": 254,
+          "Title": "Noardeast-Fryslân",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM1695",
+          "Index": 255,
+          "Title": "Noord-Beveland",
+          "Description": "Ontstaan per 01-01-1995",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM1699",
+          "Index": 256,
+          "Title": "Noordenveld",
+          "Description": "Ontstaan per 01-01-1998",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0171",
+          "Index": 257,
+          "Title": "Noordoostpolder",
+          "Description": "Provinciale wijziging per 01-01-1986\r\nNaamswijziging per 01-07-1962",
+          "DimensionGroupId": "GMPV24"
+        },
+        {
+          "Identifier": "GM0575",
+          "Index": 258,
+          "Title": "Noordwijk",
+          "Description": "Gemeentelijke herindeling per 01-01-2019\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0820",
+          "Index": 259,
+          "Title": "Nuenen, Gerwen en Nederwetten",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0302",
+          "Index": 260,
+          "Title": "Nunspeet",
+          "Description": "Ontstaan per 01-01-1972",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0579",
+          "Index": 261,
+          "Title": "Oegstgeest",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0823",
+          "Index": 262,
+          "Title": "Oirschot",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0824",
+          "Index": 263,
+          "Title": "Oisterwijk",
+          "Description": "Gemeentelijke herindeling per 01-01-2021\r\nGemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1895",
+          "Index": 264,
+          "Title": "Oldambt",
+          "Description": "Ontstaan per 01-01-2010",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM0269",
+          "Index": 265,
+          "Title": "Oldebroek",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0173",
+          "Index": 266,
+          "Title": "Oldenzaal",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM1773",
+          "Index": 267,
+          "Title": "Olst-Wijhe",
+          "Description": "Naamswijziging per 26-03-2002",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0175",
+          "Index": 268,
+          "Title": "Ommen",
+          "Description": "Begindatum 01-05-1923",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM1586",
+          "Index": 269,
+          "Title": "Oost Gelre",
+          "Description": "Naamswijziging per 19-05-2006",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0826",
+          "Index": 270,
+          "Title": "Oosterhout",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0085",
+          "Index": 271,
+          "Title": "Ooststellingwerf",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0431",
+          "Index": 272,
+          "Title": "Oostzaan",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0432",
+          "Index": 273,
+          "Title": "Opmeer",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0086",
+          "Index": 274,
+          "Title": "Opsterland",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0828",
+          "Index": 275,
+          "Title": "Oss",
+          "Description": "Gemeentelijke herindeling per 01-01-2015\r\nGemeentelijke herindeling per 01-01-2011\r\nGemeentelijke herindeling per 01-01-2003\r\nGemeentelijke herindeling per 01-01-1994\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1509",
+          "Index": 276,
+          "Title": "Oude IJsselstreek",
+          "Description": "Ontstaan per 01-01-2005",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0437",
+          "Index": 277,
+          "Title": "Ouder-Amstel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0589",
+          "Index": 278,
+          "Title": "Oudewater",
+          "Description": "Provinciale wijziging per 01-09-1970\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1734",
+          "Index": 279,
+          "Title": "Overbetuwe",
+          "Description": "Ontstaan per 01-01-2001",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0590",
+          "Index": 280,
+          "Title": "Papendrecht",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1894",
+          "Index": 281,
+          "Title": "Peel en Maas",
+          "Description": "Ontstaan per 01-01-2010",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0765",
+          "Index": 282,
+          "Title": "Pekela",
+          "Description": "Ontstaan per 01-01-1990",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM1926",
+          "Index": 283,
+          "Title": "Pijnacker-Nootdorp",
+          "Description": "Ontstaan per 01-01-2002",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0439",
+          "Index": 284,
+          "Title": "Purmerend",
+          "Description": "Gemeentelijke herindeling per 01-01-2022\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0273",
+          "Index": 285,
+          "Title": "Putten",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0177",
+          "Index": 286,
+          "Title": "Raalte",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0703",
+          "Index": 287,
+          "Title": "Reimerswaal",
+          "Description": "Ontstaan per 01-01-1970",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0274",
+          "Index": 288,
+          "Title": "Renkum",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0339",
+          "Index": 289,
+          "Title": "Renswoude",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1667",
+          "Index": 290,
+          "Title": "Reusel-De Mierden",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0275",
+          "Index": 291,
+          "Title": "Rheden",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0340",
+          "Index": 292,
+          "Title": "Rhenen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0597",
+          "Index": 293,
+          "Title": "Ridderkerk",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1742",
+          "Index": 294,
+          "Title": "Rijssen-Holten",
+          "Description": "Naamswijziging per 15-03-2003",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0603",
+          "Index": 295,
+          "Title": "Rijswijk (ZH.)",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1669",
+          "Index": 296,
+          "Title": "Roerdalen",
+          "Description": "Gemeentelijke herindeling per 01-01-2007\r\nNaamswijziging per 01-01-1993",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0957",
+          "Index": 297,
+          "Title": "Roermond",
+          "Description": "Gemeentelijke herindeling per 01-01-2007\r\nGemeentelijke herindeling per 01-01-1991\r\nBegindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0736",
+          "Index": 298,
+          "Title": "De Ronde Venen",
+          "Description": "Gemeentelijke herindeling per 01-01-2011\r\nOntstaan per 01-01-1989",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1674",
+          "Index": 299,
+          "Title": "Roosendaal",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0599",
+          "Index": 300,
+          "Title": "Rotterdam",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0277",
+          "Index": 301,
+          "Title": "Rozendaal",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0840",
+          "Index": 302,
+          "Title": "Rucphen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0441",
+          "Index": 303,
+          "Title": "Schagen",
+          "Description": "Gemeentelijke herindeling per 01-01-2013\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0279",
+          "Index": 304,
+          "Title": "Scherpenzeel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0606",
+          "Index": 305,
+          "Title": "Schiedam",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0088",
+          "Index": 306,
+          "Title": "Schiermonnikoog",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM1676",
+          "Index": 307,
+          "Title": "Schouwen-Duiveland",
+          "Description": "Ontstaan per 01-01-1997",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0965",
+          "Index": 308,
+          "Title": "Simpelveld",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0845",
+          "Index": 309,
+          "Title": "Sint-Michielsgestel",
+          "Description": "Gemeentelijke herindeling per 01-01-1996\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1883",
+          "Index": 310,
+          "Title": "Sittard-Geleen",
+          "Description": "Ontstaan per 01-01-2001",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0610",
+          "Index": 311,
+          "Title": "Sliedrecht",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1714",
+          "Index": 312,
+          "Title": "Sluis",
+          "Description": "Ontstaan per 01-01-2003",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0090",
+          "Index": 313,
+          "Title": "Smallingerland",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0342",
+          "Index": 314,
+          "Title": "Soest",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0847",
+          "Index": 315,
+          "Title": "Someren",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0848",
+          "Index": 316,
+          "Title": "Son en Breugel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0037",
+          "Index": 317,
+          "Title": "Stadskanaal",
+          "Description": "Ontstaan per 01-01-1969",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM0180",
+          "Index": 318,
+          "Title": "Staphorst",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0532",
+          "Index": 319,
+          "Title": "Stede Broec",
+          "Description": "Ontstaan per 01-01-1979",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0851",
+          "Index": 320,
+          "Title": "Steenbergen",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nNaamswijziging per 25-06-1962",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1708",
+          "Index": 321,
+          "Title": "Steenwijkerland",
+          "Description": "Naamswijziging per 01-01-2003",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0971",
+          "Index": 322,
+          "Title": "Stein (L.)",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1904",
+          "Index": 323,
+          "Title": "Stichtse Vecht",
+          "Description": "Ontstaan per 01-01-2011",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1900",
+          "Index": 324,
+          "Title": "Súdwest-Fryslân",
+          "Description": "Gemeentelijke herindeling per 01-01-2018\r\nOntstaan per 01-01-2011",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0715",
+          "Index": 325,
+          "Title": "Terneuzen",
+          "Description": "Gemeentelijke herindeling per 01-01-2003\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0093",
+          "Index": 326,
+          "Title": "Terschelling",
+          "Description": "Provinciale wijziging per 01-09-1942\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0448",
+          "Index": 327,
+          "Title": "Texel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM1525",
+          "Index": 328,
+          "Title": "Teylingen",
+          "Description": "Ontstaan per 01-01-2006",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0716",
+          "Index": 329,
+          "Title": "Tholen",
+          "Description": "Gemeentelijke herindeling per 01-01-1995\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0281",
+          "Index": 330,
+          "Title": "Tiel",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0855",
+          "Index": 331,
+          "Title": "Tilburg",
+          "Description": "Gemeentelijke herindeling per 01-01-2021\r\nGemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0183",
+          "Index": 332,
+          "Title": "Tubbergen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM1700",
+          "Index": 333,
+          "Title": "Twenterand",
+          "Description": "Naamswijziging per 01-06-2002",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM1730",
+          "Index": 334,
+          "Title": "Tynaarlo",
+          "Description": "Naamswijziging per 01-12-1999",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0737",
+          "Index": 335,
+          "Title": "Tytsjerksteradiel",
+          "Description": "Naamswijziging per 01-01-1989",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0450",
+          "Index": 336,
+          "Title": "Uitgeest",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0451",
+          "Index": 337,
+          "Title": "Uithoorn",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0184",
+          "Index": 338,
+          "Title": "Urk",
+          "Description": "Provinciale wijziging per 01-01-1986\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV24"
+        },
+        {
+          "Identifier": "GM0344",
+          "Index": 339,
+          "Title": "Utrecht (gemeente)",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1581",
+          "Index": 340,
+          "Title": "Utrechtse Heuvelrug",
+          "Description": "Ontstaan per 01-01-2006",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0981",
+          "Index": 341,
+          "Title": "Vaals",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0994",
+          "Index": 342,
+          "Title": "Valkenburg aan de Geul",
+          "Description": "Ontstaan per 01-01-1982",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0858",
+          "Index": 343,
+          "Title": "Valkenswaard",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0047",
+          "Index": 344,
+          "Title": "Veendam",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM0345",
+          "Index": 345,
+          "Title": "Veenendaal",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0717",
+          "Index": 346,
+          "Title": "Veere",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0861",
+          "Index": 347,
+          "Title": "Veldhoven",
+          "Description": "Naamswijziging per 01-05-1921",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0453",
+          "Index": 348,
+          "Title": "Velsen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0983",
+          "Index": 349,
+          "Title": "Venlo",
+          "Description": "Gemeentelijke herindeling per 01-01-2010\r\nGemeentelijke herindeling per 01-01-2001\r\nBegindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM0984",
+          "Index": 350,
+          "Title": "Venray",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1961",
+          "Index": 351,
+          "Title": "Vijfheerenlanden",
+          "Description": "Provinciale wijziging per 01-01-2019\r\nOntstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0622",
+          "Index": 352,
+          "Title": "Vlaardingen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0096",
+          "Index": 353,
+          "Title": "Vlieland",
+          "Description": "Provinciale wijziging per 01-09-1942\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0718",
+          "Index": 354,
+          "Title": "Vlissingen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV29"
+        },
+        {
+          "Identifier": "GM0986",
+          "Index": 355,
+          "Title": "Voerendaal",
+          "Description": "Begindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1992",
+          "Index": 356,
+          "Title": "Voorne aan Zee",
+          "Description": "Ontstaan per 01-01-2023",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0626",
+          "Index": 357,
+          "Title": "Voorschoten",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0285",
+          "Index": 358,
+          "Title": "Voorst",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0865",
+          "Index": 359,
+          "Title": "Vught",
+          "Description": "Gemeentelijke herindeling per 01-01-2021\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM1949",
+          "Index": 360,
+          "Title": "Waadhoeke",
+          "Description": "Ontstaan per 01-01-2018",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0866",
+          "Index": 361,
+          "Title": "Waalre",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0867",
+          "Index": 362,
+          "Title": "Waalwijk",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0627",
+          "Index": 363,
+          "Title": "Waddinxveen",
+          "Description": "Begindatum 01-07-1870",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0289",
+          "Index": 364,
+          "Title": "Wageningen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0629",
+          "Index": 365,
+          "Title": "Wassenaar",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0852",
+          "Index": 366,
+          "Title": "Waterland",
+          "Description": "Ontstaan per 01-01-1991",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0988",
+          "Index": 367,
+          "Title": "Weert",
+          "Description": "Gemeentelijke herindeling per 01-01-1998\r\nBegindatum 02-01-1839",
+          "DimensionGroupId": "GMPV31"
+        },
+        {
+          "Identifier": "GM1960",
+          "Index": 368,
+          "Title": "West Betuwe",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0668",
+          "Index": 369,
+          "Title": "West Maas en Waal",
+          "Description": "Naamswijziging per 01-07-1985",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1969",
+          "Index": 370,
+          "Title": "Westerkwartier",
+          "Description": "Ontstaan per 01-01-2019",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM1701",
+          "Index": 371,
+          "Title": "Westerveld",
+          "Description": "Ontstaan per 01-01-1998",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0293",
+          "Index": 372,
+          "Title": "Westervoort",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1950",
+          "Index": 373,
+          "Title": "Westerwolde",
+          "Description": "Ontstaan per 01-01-2018",
+          "DimensionGroupId": "GMPV20"
+        },
+        {
+          "Identifier": "GM1783",
+          "Index": 374,
+          "Title": "Westland",
+          "Description": "Ontstaan per 01-01-2004",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0098",
+          "Index": 375,
+          "Title": "Weststellingwerf",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV21"
+        },
+        {
+          "Identifier": "GM0189",
+          "Index": 376,
+          "Title": "Wierden",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0296",
+          "Index": 377,
+          "Title": "Wijchen",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1696",
+          "Index": 378,
+          "Title": "Wijdemeren",
+          "Description": "Ontstaan per 01-01-2002",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0352",
+          "Index": 379,
+          "Title": "Wijk bij Duurstede",
+          "Description": "Gemeentelijke herindeling per 01-01-1996\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0294",
+          "Index": 380,
+          "Title": "Winterswijk",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0873",
+          "Index": 381,
+          "Title": "Woensdrecht",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0632",
+          "Index": 382,
+          "Title": "Woerden",
+          "Description": "Gemeentelijke herindeling per 01-01-2001\r\nProvinciale wijziging per 01-01-1989\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM1690",
+          "Index": 383,
+          "Title": "De Wolden",
+          "Description": "Ontstaan per 01-01-1998",
+          "DimensionGroupId": "GMPV22"
+        },
+        {
+          "Identifier": "GM0880",
+          "Index": 384,
+          "Title": "Wormerland",
+          "Description": "Ontstaan per 01-01-1991",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0351",
+          "Index": 385,
+          "Title": "Woudenberg",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0479",
+          "Index": 386,
+          "Title": "Zaanstad",
+          "Description": "Ontstaan per 01-01-1974",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0297",
+          "Index": 387,
+          "Title": "Zaltbommel",
+          "Description": "Gemeentelijke herindeling per 01-01-1999\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0473",
+          "Index": 388,
+          "Title": "Zandvoort",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV27"
+        },
+        {
+          "Identifier": "GM0050",
+          "Index": 389,
+          "Title": "Zeewolde",
+          "Description": "Ontstaan per 01-01-1984",
+          "DimensionGroupId": "GMPV24"
+        },
+        {
+          "Identifier": "GM0355",
+          "Index": 390,
+          "Title": "Zeist",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV26"
+        },
+        {
+          "Identifier": "GM0299",
+          "Index": 391,
+          "Title": "Zevenaar",
+          "Description": "Gemeentelijke herindeling per 01-01-2018\r\nGemeentelijke herindeling per 01-01-2005\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM0637",
+          "Index": 392,
+          "Title": "Zoetermeer",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0638",
+          "Index": 393,
+          "Title": "Zoeterwoude",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM1892",
+          "Index": 394,
+          "Title": "Zuidplas",
+          "Description": "Ontstaan per 01-01-2010",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0879",
+          "Index": 395,
+          "Title": "Zundert",
+          "Description": "Gemeentelijke herindeling per 01-01-1997\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV30"
+        },
+        {
+          "Identifier": "GM0301",
+          "Index": 396,
+          "Title": "Zutphen",
+          "Description": "Gemeentelijke herindeling per 01-01-2005\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV25"
+        },
+        {
+          "Identifier": "GM1896",
+          "Index": 397,
+          "Title": "Zwartewaterland",
+          "Description": "Ontstaan per 01-01-2001",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "GM0642",
+          "Index": 398,
+          "Title": "Zwijndrecht",
+          "Description": "Gemeentelijke herindeling per 01-01-2003\r\nBegindatum voor 1830",
+          "DimensionGroupId": "GMPV28"
+        },
+        {
+          "Identifier": "GM0193",
+          "Index": 399,
+          "Title": "Zwolle",
+          "Description": "Begindatum voor 1830",
+          "DimensionGroupId": "GMPV23"
+        },
+        {
+          "Identifier": "AM01",
+          "Index": 400,
+          "Title": "Groningen (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM02",
+          "Index": 401,
+          "Title": "Friesland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM03",
+          "Index": 402,
+          "Title": "Drenthe (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM05",
+          "Index": 403,
+          "Title": "Twente (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM06",
+          "Index": 404,
+          "Title": "Stedendriehoek en Noordwest Veluwe (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM07",
+          "Index": 405,
+          "Title": "Midden-Gelderland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM08",
+          "Index": 406,
+          "Title": "Rijk van Nijmegen (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM09",
+          "Index": 407,
+          "Title": "Achterhoek (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM10",
+          "Index": 408,
+          "Title": "Rivierenland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM11",
+          "Index": 409,
+          "Title": "Flevoland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM12",
+          "Index": 410,
+          "Title": "Gooi en Vechtstreek (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM13",
+          "Index": 411,
+          "Title": "Midden-Utrecht (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM14",
+          "Index": 412,
+          "Title": "Amersfoort (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM15",
+          "Index": 413,
+          "Title": "Noord-Holland Noord (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM17",
+          "Index": 414,
+          "Title": "Zaanstreek/Waterland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM18",
+          "Index": 415,
+          "Title": "Groot Amsterdam (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM19",
+          "Index": 416,
+          "Title": "Holland Rijnland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM20",
+          "Index": 417,
+          "Title": "Midden-Holland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM21",
+          "Index": 418,
+          "Title": "Haaglanden (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM22",
+          "Index": 419,
+          "Title": "Rijnmond (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM23",
+          "Index": 420,
+          "Title": "Drechtsteden (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM24",
+          "Index": 421,
+          "Title": "Zeeland (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM25",
+          "Index": 422,
+          "Title": "West-Brabant (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM26",
+          "Index": 423,
+          "Title": "Midden-Brabant (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM27",
+          "Index": 424,
+          "Title": "Noordoost-Brabant (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM28",
+          "Index": 425,
+          "Title": "Zuidoost-Brabant (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM29",
+          "Index": 426,
+          "Title": "Noord-Limburg (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM30",
+          "Index": 427,
+          "Title": "Zuid-Limburg (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM32",
+          "Index": 428,
+          "Title": "Helmond-De Peel (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM33",
+          "Index": 429,
+          "Title": "Midden-Limburg (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM34",
+          "Index": 430,
+          "Title": "Zuid-Holland Centraal (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM35",
+          "Index": 431,
+          "Title": "Gorinchem (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM36",
+          "Index": 432,
+          "Title": "Regio Zwolle (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM37",
+          "Index": 433,
+          "Title": "Zuid-Kennemerland en IJmond (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        },
+        {
+          "Identifier": "AM38",
+          "Index": 434,
+          "Title": "FoodValley (AM)",
+          "Description": "AM = Arbeidsmarktregio\r\n\r\nEen indeling in regio's van waaruit gemeenten en het Uitvoeringsinstituut Werknemersverzekeringen (UWV) de dienstverlening aan werkgevers en werkzoekenden vormgeven. Het is een regionaal niveau tussen gemeenten en provincies in. Deze indeling is van onderop, door gemeenten zelf, tot stand gekomen. De indeling is op 1 januari 2016 herzien en telt vanaf die datum 35 gebieden.",
+          "DimensionGroupId": "AM"
+        }
+      ]
+    },
+    {
+      "CodeList": [
+        {
+          "Status": "Definitief",
+          "Identifier": "2011JJ00",
+          "Index": 1,
+          "Title": "2011",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2012JJ00",
+          "Index": 2,
+          "Title": "2012",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2013JJ00",
+          "Index": 3,
+          "Title": "2013",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2014JJ00",
+          "Index": 4,
+          "Title": "2014",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2015JJ00",
+          "Index": 5,
+          "Title": "2015",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2016JJ00",
+          "Index": 6,
+          "Title": "2016",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2017JJ00",
+          "Index": 7,
+          "Title": "2017",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2018JJ00",
+          "Index": 8,
+          "Title": "2018",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2019JJ00",
+          "Index": 9,
+          "Title": "2019",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2020JJ00",
+          "Index": 10,
+          "Title": "2020",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Definitief",
+          "Identifier": "2021JJ00",
+          "Index": 11,
+          "Title": "2021",
+          "Description": "",
+          "DimensionGroupId": "0"
+        },
+        {
+          "Status": "Voorlopig",
+          "Identifier": "2022JJ00",
+          "Index": 12,
+          "Title": "2022",
+          "Description": "Voorlopige cijfers",
+          "DimensionGroupId": "0"
+        }
+      ],
+      "Identifier": "Perioden",
+      "Title": "Perioden",
+      "Description": "",
+      "MapYear": null,
+      "ReleasePolicy": true,
+      "Kind": "TimeDimension",
+      "DimensionGroups": [
+        {
+          "Id": "0",
+          "Index": 0,
+          "Title": "Jaren",
+          "Description": null,
+          "ParentId": null
+        }
+      ]
+    }
+  ],
+  "Distributions": [
+    {
+      "Format": "csv",
+      "MediaType": "csv",
+      "Language": "nl"
+    },
+    {
+      "Format": "odata",
+      "MediaType": "odata",
+      "Language": "nl"
+    }
+  ],
+  "License": "https://creativecommons.org/licenses/by/4.0/",
+  "Source": "CBS.",
+  "Summary": "Huishoudens, personen, minderjarige kinderen, laag inkomen\nInkomensgroep, duur inkomenspositie, huishoudenskenmerken, gemeente",
+  "LongDescription": "INHOUDSOPGAVE\r\n\r\n1. Toelichting\r\n2. Definities en verklaring van symbolen\r\n3. Koppelingen naar relevante tabellen en artikelen\r\n4. Bronnen en methoden\r\n5. Meer informatie \r\n\r\n1. TOELICHTING\r\n\r\nDeze tabel bevat regionale statistieken over huishoudens met een relatief laag inkomen. De gegevens worden uitgesplitst naar huishoudenskenmerken als geslacht en leeftijd van de hoofdkostwinner, en de huishoudenssamenstelling en voornaamste inkomensbron van het huishouden. Voor de indeling naar hoogte van het inkomen worden twee inkomensgrenzen gehanteerd: de lage-inkomensgrens en het beleidsmatig minimum. Voor deze indelingen wordt het aantal huishoudens gepubliceerd, zowel absoluut als in procenten van de totale populatie per regio. De tabel bevat ook gegevens over het aantal huishoudens dat langdurig (4 jaar en langer) van een inkomen onder de gebruikte inkomensgrens moest rondkomen. De uitkomsten worden onder meer gebruikt in rapportages over armoede.\r\n\r\nDe gegevens hebben betrekking op alle particuliere huishoudens met inkomen, per 1 januari van het verslagjaar. Studentenhuishoudens en huishoudens die slechts een deel van het jaar inkomen hadden zijn buiten beschouwing gebleven. Peildatum voor de gemeentelijke indeling is 1 januari 2023.\r\n\r\nGegevens beschikbaar van 2011 t/m 2022.\r\n\r\nStatus van de cijfers:\r\nDe cijfers in deze tabel voor 2011 t/m 2021 zijn definitief. De cijfers voor 2022 zijn voorlopig.\r\n\r\nWijzigingen per november 2024:\r\nGeen, deze tabel is stopgezet.\r\nDeze tabel wordt opgevolgd door de tabel 'Laag en langdurig laag inkomen; regio (indeling 2024)'. Zie paragraaf 3.\r\n\r\nWanneer komen er nieuwe cijfers?\r\nNiet meer van toepassing.\r\n\r\n2. DEFINITIES EN VERKLARING VAN SYMBOLEN\r\n\r\nDefinities:\r\n\r\nLage-inkomensgrens\r\nDe lage-inkomensgrens betreft een vast bedrag dat voor alle typen huishoudens een gelijke koopkracht vertegenwoordigt. De hoogte ervan is geënt op de bijstandsuitkering van een alleenstaande in 1979, toen deze op een hoog niveau lag. Er is sprake van een laag inkomen als het inkomen omgerekend naar een inkomen van een alleenstaande, een lagere koopkracht vertegenwoordigt dan een bedrag van 9 250 euro in prijzen van 2000. Het inkomensbegrip dat hierbij wordt gehanteerd, is het besteedbaar inkomen verminderd met huurtoeslag. Inkomens van huishoudens van verschillende grootte en samenstelling worden met behulp van een equivalentiefactor vergelijkbaar gemaakt. Vervolgens wordt dit gestandaardiseerde inkomen (met het prijsindexcijfer voor de gezinsconsumptie) herleid naar het prijspeil in 2000. Het resulterende gestandaardiseerde en gedefleerde inkomen is laag wanneer het minder is dan 9 250 euro.\r\n\r\nSociaal minimum\r\nHet beleidsmatig of sociaal minimum bestaat uit de netto bijstandsuitkering of (voor ouderen) de netto AOW-uitkering aangevuld met eventuele kinderbijslag, kindgebonden budget, zorgtoeslag, huurtoeslag, en (voor sommige jaren) incidentele koopkrachttegemoetkomingen. De nominale premie zorgverzekering wordt daarbij in mindering gebracht. Bijzondere bijstand en kinderopvangtoeslag blijven buiten de door het CBS gebruikte afbakening. Het sociaal minimum is het wettelijk bestaansminimum dat in de politieke besluitvorming is vastgesteld. Tot aan de pensioengerechtigde leeftijd is het sociaal minimum gelijk aan de hoogte van de bijstandsuitkering en vanaf de pensioengerechtigde leeftijd is het ontleend aan het AOW-pensioen. Voor huishoudens met kinderen zijn de kinderbijslag en het kindgebonden budget aan het normbedrag toegevoegd. Het CBS berekent per afzonderlijk huishouden de verhouding van het waargenomen besteedbaar jaarinkomen (teller) en de wettelijke netto bijstandsnorm (of netto AOW-norm) aangevuld met de in dat jaar waargenomen bedragen van ontvangen kinderbijslag, ontvangen kindgebonden budget, saldo ontvangen zorgtoeslag en nominale premie zorgverzekering en ontvangen huurtoeslag (noemer). Indien deze verhouding groter is dan 1 (100 procent) of beter gezegd 1,01 (101 procent) geldt dat het besteedbaar inkomen van het desbetreffende huishouden in het desbetreffende jaar boven de kritische beleidsmatige grens uitkomt, dus dat het huishouden geen risico op armoede heeft volgens de beleidsmatige grens. Ligt de ratio onder de 101 procent dan is er wel sprake van een armoederisico voor het desbetreffende huishouden. De grens is op 101 procent gelegd en niet op 100 om te voorkomen dat door afronding van inkomensposten huishoudens onterecht boven de 100 procent uitkomen en daarmee als ‘niet-arm’ worden geregistreerd. Voor de uitvoering van het gemeentelijk armoedebeleid wordt vaak uitgegaan van een inkomensgrens die gelijkgesteld is aan een hoger percentage (bijvoorbeeld 110 of 120 procent) van het sociaal minimum.\r\n\r\nVerklaring van symbolen:\r\n\r\nniets (blanco) : het cijfer kan op logische gronden niet voorkomen\r\n.              : het cijfer is onbekend, onvoldoende betrouwbaar of geheim\r\n*              : voorlopige cijfers\r\n**             : nader voorlopige cijfers\r\n\r\nDe cijfers zijn afgerond. Hierdoor kan het voorkomen, dat de som van de detailgegevens afwijkt van het totaal.\r\n\r\n3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN\r\n\r\nRelevante tabellen:\r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85711NED'>Inkomen van huishoudens; kenmerken, regio (indeling 2023)</a> \r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85712NED'>Inkomen van personen; kenmerken, regio (indeling 2023)</a> \r\n\r\nDe tabel wordt opgevolgd door: \r\n<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86006NED'>Laag en langdurig laag inkomen; huishoudenskenmerken, regio (indeling 2024)</a>\r\n\r\nRelevante artikelen:\r\n<a href=https://www.cbs.nl/nl-nl/publicatie/2023/51/armoede-sociale-uitsluiting-2023>Armoede en sociale uitsluiting 2023</a>\r\n\r\nMeer informatie is te vinden op de themapagina <a href=\"https://www.cbs.nl/nl-nl/arbeid-en-inkomen/inkomen-en-bestedingen\">Inkomen en bestedingen</a>.\r\n\r\n4. BRONNEN EN METHODEN\r\n\r\nDe onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href=\"https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/integraal-inkomens-en-vermogensonderzoek\">Integraal inkomens- en vermogensonderzoek</a>.\r\n\r\n5. MEER INFORMATIE\r\n\r\n<a href=\"https://www.cbs.nl/nl-nl/over-ons/contact/infoservice\">Infoservice</a>\r\n\r\nCopyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen \r\nVerveelvoudiging is toegestaan, mits CBS als bron wordt vermeld."
+}
