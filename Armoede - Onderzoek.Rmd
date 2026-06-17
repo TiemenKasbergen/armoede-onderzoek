@@ -16,7 +16,7 @@ setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 ## Introductie
 
-Armoede is een hardnekkig sociaal probleem in Nederland. Huishoudens die langdurig onder de armoedegrens leven hebben minder toegang tot onderwijs, zorg en sociale participatie. Volgens het CBS (2023) leefde in 2022 ongeveer 4,7% van alle huishoudens onder de lage-inkomensgrens, wat neerkomt op ruim 340.000 huishoudens. Eenoudergezinnen en alleenstaanden zijn bijzonder kwetsbaar: hun armoederisico is twee tot drie keer hoger dan dat van paren met kinderen (Vrooman et al., 2020). In dit rapport analyseren we hoe armoede zich heeft ontwikkeld tussen 2011 en 2024, welke huishoudenstypes het hardst worden geraakt, en hoe armoede geografisch verdeeld is over Nederland. Bijzondere aandacht gaat uit naar de COVID-19-periode (2020), die zowel economische druk als overheidssteun met zich meebracht.
+Armoede is een hardnekkig sociaal probleem in Nederland. Huishoudens die langdurig onder de armoedegrens leven hebben minder toegang tot onderwijs, zorg en sociale participatie. Volgens het Centraal Bureau voor de Statistiek (CBS, 2023) leefde in 2022 ongeveer 4,7% van alle huishoudens onder de lage-inkomensgrens, wat neerkomt op ruim 340.000 huishoudens. Eenoudergezinnen en alleenstaanden zijn bijzonder kwetsbaar: hun armoederisico is twee tot drie keer hoger dan dat van paren met kinderen (Vrooman et al., 2020). In dit rapport analyseren we hoe armoede zich heeft ontwikkeld tussen 2011 en 2024, welke huishoudenstypes het hardst worden geraakt, en hoe armoede geografisch verdeeld is over Nederland. Bijzondere aandacht gaat uit naar de COVID-19-periode (2020), die zowel economische druk als overheidssteun met zich meebracht.
 
 ## Data
 
@@ -53,11 +53,7 @@ kaart_data <- obs2 %>%
          DuurInkomenspositie == "A028721",
          KenmerkenVanHuishoudens == "1050010",
          Perioden == "2022JJ00") %>%
-  left_join(regio_codes, by = c("RegioS" = "Identifier")) %>%
-  mutate(Title = case_when(
-    Title == "Fryslân" ~ "Friesland",
-    TRUE ~ Title
-  ))
+  left_join(regio_codes, by = c("RegioS" = "Identifier"))
 ```
 
 ## Kwantificeren
@@ -69,7 +65,7 @@ De ruwe CBS-data vereist meerdere bewerkingsstappen voordat analyse mogelijk is:
 1. **Filteren op nationaal niveau:** De dataset 85678NED bevat zowel nationale als regionale rijen. Voor de tijdreeks filteren we op `RegioS == "NL01"` (heel Nederland) om dubbeltellingen met provinciale data te vermijden.
 2. **Selecteren van de juiste maatstaf:** De data bevat meerdere inkomensgrenzen en duraties. We filteren op de lage-inkomensgrens (`InkomensgrensHuishouden == "1050290"`) en éénjarige armoede (`DuurInkomenspositie == "A028721"`), omdat dit de meest gebruikte maatstaf is in CBS-publicaties.
 3. **Samenvoegen van datasets:** Voor de kaart koppelen we de regionale armoedecijfers aan provincienamen via een `left_join` met de RegioSCodes-tabel, zodat we provinciedata kunnen plotten op een geografische kaart.
-4. **Harmoniseren van provincienamen:** De GeoJSON-kaart gebruikt "Friesland" terwijl CBS "Fryslân" hanteert. Dit corrigeren we expliciet om lege waarden op de kaart te vermijden.
+4. **Harmoniseren van provincienamen:** Zowel de GeoJSON-kaart als CBS hanteert "Fryslân". De join werkt daardoor direct op de originele CBS-naam zonder aanpassing.
 
 ### Beschrijving van variabelen
 
@@ -176,6 +172,10 @@ nl_map <- st_read("https://cartomap.github.io/nl/wgs84/provincie_2022.geojson", 
 nl_map_data <- nl_map %>%
   left_join(kaart_data, by = c("statnaam" = "Title"))
 
+# Controleer of alle provincies gekoppeld zijn
+missing_provs <- nl_map_data %>% filter(is.na(Value)) %>% pull(statnaam)
+if (length(missing_provs) > 0) warning("Geen data voor: ", paste(missing_provs, collapse = ", "))
+
 ggplot(nl_map_data) +
   geom_sf(aes(fill = Value)) +
   scale_fill_gradient(low = "lightyellow", high = "darkred", na.value = "grey90") +
@@ -208,7 +208,7 @@ ggplot(armoede_pct, aes(x = jaar, y = Value)) +
   annotate("text", x = 2014, y = 7.2,
            label = paste0("Gem. voor COVID: ", round(gem_voor, 1), "%"),
            size = 2.8, color = "steelblue") +
-  annotate("text", x = 2022.5, y = 6.5,
+  annotate("text", x = 2021, y = 7.0,
            label = paste0("Gem. na COVID:\n", round(gem_na, 1), "%"),
            size = 2.8, color = "tomato", hjust = 0.5) +
   labs(title = "Armoede in Nederland voor en na COVID-19",
@@ -219,13 +219,21 @@ ggplot(armoede_pct, aes(x = jaar, y = Value)) +
   theme_minimal()
 ```
 
-Ondanks de economische schok van COVID-19 daalde armoede na 2020 verder. Het gemiddelde armoederisico vóór 2020 bedroeg `r round(gem_voor, 1)`%, en na 2020 `r round(gem_na, 1)`%. Dit lijkt paradoxaal, maar is waarschijnlijk te verklaren door omvangrijke overheidssteun zoals de NOW-regeling (loonsubsidie) en verhogingen van toeslagen. Dit is echter een associatie en geen causaal bewijs, want andere factoren zoals de krappe arbeidsmarkt spelen ook een rol.
+```{r ttest}
+voor_vals <- armoede_pct %>% filter(periode == "Voor COVID-19") %>% pull(Value)
+na_vals   <- armoede_pct %>% filter(periode == "Na COVID-19")  %>% pull(Value)
+ttest_res <- t.test(voor_vals, na_vals)
+```
+
+Ondanks de economische schok van COVID-19 daalde armoede na 2020 verder. Het gemiddelde armoederisico vóór 2020 bedroeg `r round(gem_voor, 1)`%, en na 2020 `r round(gem_na, 1)`%. Een Welch two-sample t-test bevestigt dat dit verschil statistisch significant is (t(`r round(ttest_res$parameter, 1)`) = `r round(ttest_res$statistic, 2)`, p = `r round(ttest_res$p.value, 3)`). Dit lijkt paradoxaal, maar is waarschijnlijk te verklaren door omvangrijke overheidssteun zoals de NOW-regeling (loonsubsidie) en verhogingen van toeslagen. Dit is echter een associatie en geen causaal bewijs, want andere factoren zoals de krappe arbeidsmarkt spelen ook een rol.
 
 ## Discussie
 
 Dit onderzoek laat zien dat armoede in Nederland tussen 2011 en 2024 aanzienlijk is gedaald, van een piek van bijna 9% naar ruim 3,5%. De daling is echter niet voor alle huishoudens even sterk. Eenoudergezinnen en alleenstaanden blijven structureel kwetsbaar, zoals ook Vrooman et al. (2020) documenteren in het Sociaal en Cultureel Rapport. Dit patroon suggereert dat generiek armoedebeleid onvoldoende is. Gerichte maatregelen voor eenoudergezinnen, zoals kinderopvangtoeslag, uitbreiding van de bijzondere bijstand en schuldhulpverlening, zijn noodzakelijk.
 
-De geografische analyse laat zien dat armoede geconcentreerd is in provincies met grote steden. Dit sluit aan bij CBS-cijfers over stedelijke armoede (CBS, 2023). Een beleidsimplicatie is dat gemeentelijk armoedebeleid in Rotterdam, Den Haag en Groningen bijzondere aandacht verdient.
+De geografische analyse laat zien dat armoede geconcentreerd is in provincies met grote steden. Dit sluit aan bij CBS-cijfers over stedelijke armoede (CBS, 2023a) en onderzoek van Musterd et al. (2017) naar ruimtelijke concentratie van armoede in Nederlandse steden. Een beleidsimplicatie is dat gemeentelijk armoedebeleid in Rotterdam, Den Haag en Groningen bijzondere aandacht verdient.
+
+**Vervolgonderzoek:** In de volgende fase van dit onderzoek willen we de causale relatie tussen beleidsmaatregelen en armoededaling nader onderzoeken. Concreet plannen we: (1) een regressieanalyse van de invloed van het minimumloon en toelagenniveaus op het armoedecijfer over de tijd; (2) een vergelijking van armoede op gemeenteniveau binnen de hoog-scorende provincies om stedelijke concentratie te kwantificeren; en (3) een analyse van langdurige armoede (meer dan drie jaar onder de grens) als aanvulling op de huidige eenjarige maatstaf.
 
 **Beperkingen:** Ten eerste meten we alleen geregistreerde huishoudens; daklozen, ongedocumenteerden en mensen die geen gebruik maken van toeslagen worden onderschat. Ten tweede zijn de provinciale data uit 2022 en kunnen ze niet direct worden vergeleken met de meest recente nationale cijfers uit 2024. Ten derde is de COVID-19-analyse associatief: zonder controlegroep of quasi-experimenteel design kunnen we geen causale uitspraken doen over het effect van overheidssteun op armoede.
 
@@ -243,6 +251,14 @@ Zie de README op GitHub voor exacte downloadinstructies. Het kaartbestand wordt 
 
 ## Referenties
 
-- CBS (2023). *Armoede en sociale uitsluiting 2023*. Centraal Bureau voor de Statistiek. https://www.cbs.nl/nl-nl/publicatie/2023/44/armoede-en-sociale-uitsluiting-2023
+- Centraal Bureau voor de Statistiek. (2023). *Armoede en sociale uitsluiting 2023*. https://www.cbs.nl/nl-nl/publicatie/2023/44/armoede-en-sociale-uitsluiting-2023
+
+- Centraal Bureau voor de Statistiek. (2024). *Laag en langdurig laag inkomen van huishoudens; kenmerken* [Dataset]. CBS Open Data. https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83841NED
+
+- Centraal Bureau voor de Statistiek. (2024). *Laag en langdurig laag inkomen; regio* [Dataset]. CBS Open Data. https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85678NED
+
+- Musterd, S., Marcińczak, S., van Ham, M., & Tammaru, T. (2017). Socioeconomic segregation in European capital cities: Increasing separation between poor and rich. *Urban Geography*, *38*(7), 1062–1083. https://doi.org/10.1080/02723638.2016.1228371
+
+- Sociaal en Cultureel Planbureau. (2021). *Armoede in kaart 2021*. https://www.scp.nl/publicaties/publicaties/2021/10/05/armoede-in-kaart-2021
 
 - Vrooman, C., Gijsberts, M., & Boelhouwer, J. (2020). *Verschil in Nederland: Sociaal en Cultureel Rapport 2020*. Sociaal en Cultureel Planbureau. https://www.scp.nl/publicaties/publicaties/2020/11/12/verschil-in-nederland
