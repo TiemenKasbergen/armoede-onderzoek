@@ -1,6 +1,6 @@
 ---
 title: "Armoede in Nederland"
-author: "Tiemen & Thijs"
+author: "Tiemen Kasbergen (2898990) & Thijs Wiesenekker (2863386)"
 date: "2026-06-04"
 output:
   pdf_document:
